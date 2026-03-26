@@ -123,6 +123,23 @@ This is not a large framework. It is a compact starting point for teams or solo
 operators who want a public example of local AI workflow hygiene, clear routing
 rules, and lightweight automation helpers.
 
+## Public release and support
+
+The public repository is the reference version: it is free to clone, inspect,
+and adapt for your own workflows.
+
+If you want a tailored implementation, the most natural paid paths are:
+
+- repository review and public-safe hardening
+- custom packaging for a team or community skill library
+- workflow setup for a private OpenClaw-style environment
+- documentation cleanup for a public release
+
+Support and customization requests can be handled through GitHub Issues, and
+GitHub Sponsors can be used if you later enable sponsorship on the account.
+This keeps the public repo useful on its own while leaving a clear path for
+paid services, consulting, or sponsored maintenance.
+
 ## Contributing
 
 See [CONTRIBUTING.md](./CONTRIBUTING.md) for the contribution workflow.

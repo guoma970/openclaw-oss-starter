@@ -51,3 +51,17 @@ Keep this skill public-safe:
 - community skill examples
 - public-safe family workflow demos
 - local AI homework reminder prototypes
+
+## Support and customization
+
+This skill is intended to stay public-safe and reusable. If you later want a
+custom version, the natural extension points are:
+
+- alternate reminder cadence
+- multiple-child variants
+- different reward approval flows
+- richer local workflow metadata for a private deployment
+
+For public use, keep the skill generic and non-identifying. For custom work,
+handle requests separately from the public template so the shared version stays
+clean and easy to reuse.
