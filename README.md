@@ -2,6 +2,10 @@
 
 A public-safe toolkit for local multi-agent workflow orchestration, routing rules, and quota-aware automation.
 
+This repository maintains public-safe OpenClaw skill templates for local AI
+coordination workflows, with a focus on structured task intake, confirmation
+logic, reminder orchestration, and parent-approved execution flows.
+
 ## Overview
 
 This repository shows how to organize a local AI workspace without mixing

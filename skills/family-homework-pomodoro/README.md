@@ -31,11 +31,16 @@ skills/
   family-homework-pomodoro/
     SKILL.md
     README.md
+    EXAMPLES.md
+    examples/
+      parent-example.md
+      child-example.md
+      reward-example.md
     agents/
       openai.yaml
 ```
 
-`SKILL.md` is the main skill entrypoint. `README.md` is for human readers, and `agents/openai.yaml` provides UI metadata.
+`SKILL.md` is the main skill entrypoint. `README.md` is for human readers, `EXAMPLES.md` links the example pack, `examples/` contains the copyable message flows, and `agents/openai.yaml` provides UI metadata.
 
 ## Safety boundaries
 
@@ -53,6 +58,7 @@ Keep this skill public-safe:
 - community skill examples
 - public-safe family workflow demos
 - local AI homework reminder prototypes
+- ClawHub skill search and installs
 
 ## Examples
 
@@ -96,3 +102,5 @@ For planned version notes, see [CHANGELOG.md](./CHANGELOG.md).
 For the next structured release note, see [releases/1.0.1.md](./releases/1.0.1.md).
 
 For a concise example pack, see [EXAMPLES.md](./EXAMPLES.md).
+
+For the full example files, see [examples/](./examples/).
