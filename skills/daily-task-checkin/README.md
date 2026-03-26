@@ -2,7 +2,7 @@
 
 A public-safe OpenClaw skill for task intake, reminder flow, nightly completion checks, and reward or follow-up approval.
 
-Published on ClawHub as `daily-task-checkin@1.0.1`.
+Published on ClawHub as `daily-task-checkin@1.0.2`.
 
 ## What it does
 
@@ -31,11 +31,15 @@ skills/
   daily-task-checkin/
     SKILL.md
     README.md
+    examples/
+      sender-example.md
+      reminder-example.md
+      completion-example.md
     agents/
       openai.yaml
 ```
 
-`SKILL.md` is the main skill entrypoint. `README.md` is for human readers, and `agents/openai.yaml` provides UI metadata.
+`SKILL.md` is the main skill entrypoint. `README.md` is for human readers, `examples/` contains the copyable message flows, and `agents/openai.yaml` provides UI metadata.
 
 ## Safety boundaries
 
@@ -69,3 +73,5 @@ Keep this skill public-safe:
 ### Completion example
 
 - Assistant: `The task list appears to be complete. Would you like to allow a reward or follow-up note today?`
+
+For the full example files, see [examples/](./examples/).

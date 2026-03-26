@@ -1,7 +1,7 @@
 ---
 name: daily-task-checkin
 description: Simple task intake, reminder, and completion check-in flow for public-safe daily coordination.
-version: 1.0.1
+version: 1.0.2
 ---
 
 # Daily Task Check-in / 日常任务打卡助手
