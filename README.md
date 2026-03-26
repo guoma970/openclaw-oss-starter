@@ -51,98 +51,92 @@ can be published, installed, and adapted without exposing private runtime state.
 - `INSTALL.md`: a short install and usage guide
 - `skills/`: public-safe skill examples
 
-## Included public-safe skills
+## Public-safe Skill Collection
 
-This repository contains public-safe skill examples that can be adapted for
-local AI workflow orchestration and OpenClaw-style multi-role systems.
+This repository maintains a growing collection of public-safe OpenClaw skill
+templates for local coordination workflows.
 
-### family-homework-pomodoro / 家庭作业番茄执行助手
+These skills are designed to be:
 
-A reusable skill template for a minimal family homework workflow:
+- reusable
+- privacy-safe
+- easy to adapt
+- suitable for local AI workflow experiments and OpenClaw-style automation
 
-- receive same-day homework from parent
-- record homework without adding assumptions
-- confirm homework start time with parent
-- guide execution with a Pomodoro rhythm
-- check completion status at night
-- require explicit parent approval before any reward notice
+Current focus areas include:
 
-Published on ClawHub as `family-homework-pomodoro@1.0.1`.
+- structured homework execution
+- daily task check-ins
+- practice session reminders
+- confirmation-based task flows
+- completion tracking and follow-up
 
-Directory:
+## Included Skills
 
-- `skills/family-homework-pomodoro/`
-- `skills/family-homework-pomodoro/SKILL.md` main skill entrypoint
-- `skills/family-homework-pomodoro/agents/openai.yaml` UI metadata
-- `skills/family-homework-pomodoro/README.md` human-readable overview
+### 1. family-homework-pomodoro / 家庭作业番茄执行助手
 
-Read more:
+A parent-confirmed homework workflow skill for same-day homework intake,
+Pomodoro-based execution, nightly completion checks, and reward approval.
 
-- [README](./skills/family-homework-pomodoro/README.md)
-- [SKILL.md](./skills/family-homework-pomodoro/SKILL.md)
+- Path: `skills/family-homework-pomodoro/`
+- Published on ClawHub: `family-homework-pomodoro@1.0.1`
+- Use cases:
+  - family homework coordination
+  - parent-approved homework reminders
+  - simple child study execution loops
 
-### daily-task-checkin / 日常任务打卡助手
+### 2. daily-task-checkin / 日常任务打卡助手
 
-A reusable skill template for a simple daily task check-in loop:
+A reusable daily task coordination skill for task intake, reminder flow,
+completion confirmation, and lightweight follow-up.
 
-- receive a task list from the parent or operator
-- record the task list without adding assumptions
-- confirm the intended start time before reminders
-- send short reminder messages during the day
-- check completion status at night
-- ask whether a reward or follow-up note is allowed
+- Path: `skills/daily-task-checkin/`
+- Published on ClawHub: `daily-task-checkin@1.0.2`
+- Use cases:
+  - daily to-do reminders
+  - family task tracking
+  - lightweight personal workflow check-ins
 
-Directory:
+### 3. practice-session-checkin / 专项练习打卡助手
 
-- `skills/daily-task-checkin/`
-- `skills/daily-task-checkin/SKILL.md` main skill entrypoint
-- `skills/daily-task-checkin/agents/openai.yaml` UI metadata
-- `skills/daily-task-checkin/README.md` human-readable overview
+A structured practice coordination skill for task intake, start confirmation,
+reminder flow, completion checks, and unfinished-task follow-up.
 
-Read more:
+- Path: `skills/practice-session-checkin/`
+- Published on ClawHub: `practice-session-checkin@1.0.1`
+- Use cases:
+  - dance or sports practice reminders
+  - music practice check-ins
+  - speaking, reading, or other structured home practice sessions
 
-- [README](./skills/daily-task-checkin/README.md)
-- [SKILL.md](./skills/daily-task-checkin/SKILL.md)
+## Project Positioning
 
-### practice-session-checkin / 专项练习打卡助手
+This repository is intended as a public-safe skill collection for local AI
+coordination workflows.
 
-A reusable skill template for a simple structured practice loop:
+It focuses on reusable patterns such as:
 
-- receive a practice task
-- record the task without assumptions
-- confirm the start time before reminders
-- send a start reminder at the confirmed time
-- check whether the practice was completed
-- track follow-up if unfinished
+- task intake
+- confirmation before execution
+- reminder orchestration
+- completion checks
+- approval-based follow-up
+- privacy-safe workflow design
 
-Directory:
+## Publishing Status
 
-- `skills/practice-session-checkin/`
-- `skills/practice-session-checkin/SKILL.md` main skill entrypoint
-- `skills/practice-session-checkin/agents/openai.yaml` UI metadata
-- `skills/practice-session-checkin/README.md` human-readable overview
+Selected skills in this repository are also published to the OpenClaw
+community registry through ClawHub.
 
-Read more:
-
-- [README](./skills/practice-session-checkin/README.md)
-- [SKILL.md](./skills/practice-session-checkin/SKILL.md)
-
-## Published to ClawHub
-
-- `family-homework-pomodoro@1.0.1`
-- This skill is public-safe and reusable as a generic family workflow template
-- `daily-task-checkin@1.0.2`
-- Both skills are public-safe and reusable as generic workflow templates
-- `practice-session-checkin@1.0.1`
-- All three skills are public-safe and reusable as generic workflow templates
+This repository will continue expanding with additional public-safe skill
+templates and documentation improvements.
 
 ## Roadmap
 
-- add examples for more reminder workflows
-- improve customization docs
-- support broader coordination workflows
-- keep adding public-safe skill templates
-- continue expanding the practice workflow family
+- add more public-safe skill examples
+- improve documentation and customization guides
+- expand reusable coordination workflows
+- strengthen ClawHub publishing coverage
 
 ## Public release and support
 
