@@ -8,6 +8,11 @@ The format follows a lightweight keep-a-changelog style.
 
 - Future work on workflow samples, packaging polish, and optional config expansion
 
+## [0.1.4] - 2026-03-26
+
+- `generate_public_pack.sh --output-dir`
+- README and install examples for custom pack destinations
+
 ## [0.1.3] - 2026-03-26
 
 - `generate_public_pack.sh --list`

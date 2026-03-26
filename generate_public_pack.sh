@@ -3,7 +3,7 @@ set -euo pipefail
 
 show_help() {
   cat <<'EOF'
-Usage: generate_public_pack.sh [--list|--dry-run|--help]
+Usage: generate_public_pack.sh [--output-dir DIR] [--list|--dry-run|--help]
 
 Build a tar.gz archive that includes the public-safe repo files and a manifest.
 
@@ -15,18 +15,44 @@ Options:
   -h, --help     Show this help text.
   --list         Print the files that would be packed and exit.
   --dry-run      Print the target archive and files without creating anything.
+  -o, --output-dir DIR
+                 Override the output directory for the archive and manifest.
 EOF
 }
 
-mode="${1:-}"
-
-if [[ "$mode" == "-h" || "$mode" == "--help" ]]; then
-  show_help
-  exit 0
-fi
-
 pack_name="${OPENCLAW_PUBLIC_PACK_NAME:-openclaw-oss-starter-public-pack}"
 output_dir="${OPENCLAW_PUBLIC_PACK_OUTPUT:-dist}"
+mode=""
+
+while [[ $# -gt 0 ]]; do
+  case "$1" in
+    -h|--help)
+      show_help
+      exit 0
+      ;;
+    --list|--dry-run)
+      mode="$1"
+      shift
+      ;;
+    -o|--output-dir)
+      if [[ $# -lt 2 ]]; then
+        printf 'error: %s requires a directory argument\n' "$1" >&2
+        exit 1
+      fi
+      output_dir="$2"
+      shift 2
+      ;;
+    --output-dir=*)
+      output_dir="${1#*=}"
+      shift
+      ;;
+    *)
+      printf 'error: unknown argument: %s\n' "$1" >&2
+      exit 1
+      ;;
+  esac
+done
+
 stamp="$(date +%Y%m%d-%H%M%S)"
 archive="${output_dir}/${pack_name}-${stamp}.tar.gz"
 manifest="${output_dir}/${pack_name}-${stamp}.manifest.txt"
@@ -56,6 +82,7 @@ files=(
   "releases/0.1.1.md"
   "releases/0.1.2.md"
   "releases/0.1.3.md"
+  "releases/0.1.4.md"
 )
 
 if [[ "$mode" == "--list" ]]; then

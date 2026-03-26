@@ -13,6 +13,7 @@ required=(
   "config/local-multi-instance.example.env"
   "examples/workflow.md"
   "releases/0.1.3.md"
+  "releases/0.1.4.md"
 )
 
 missing=0
