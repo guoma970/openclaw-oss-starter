@@ -13,10 +13,10 @@ Set up a generic Mac multi-instance workspace with clear boundaries.
 ## Core Workflow
 
 1. Choose generic roles: `main`, `workbench`, `publish`, `archive`, `private`.
-2. Map each role to one workspace root on the Mac.
+2. Map each role to one workspace root.
 3. Keep shared docs in `main` and private runtime state in `private`.
 4. Update `config/local-multi-instance.example.env` with placeholder paths.
-5. Review `references/instances.md` before sharing.
+5. Review `references/instances.md`.
 6. Run `./validate_repo.sh` and `./generate_public_pack.sh --dry-run`.
 
 ## Rules
@@ -26,12 +26,6 @@ Set up a generic Mac multi-instance workspace with clear boundaries.
 - Keep release output separate from runtime state.
 - Never place secrets or personal data in public packs.
 
-## References
-
-- [README.md](./README.md) for the compact overview
-- [examples/README.md](./examples/README.md) for the shortest setup path
-- [CUSTOMIZATION.md](./CUSTOMIZATION.md) for safe adaptation notes
-
 ## Validation
 
 Before sharing or releasing, confirm:
@@ -40,4 +34,3 @@ Before sharing or releasing, confirm:
 - config paths are placeholders only
 - the instance map stays generic
 - the pack script excludes private files
-

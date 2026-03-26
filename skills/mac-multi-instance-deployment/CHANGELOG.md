@@ -2,7 +2,7 @@
 
 ## 1.0.4 (planned)
 
-- Trim the skill body to a pure execution version
+- Trim `SKILL.md` to a more compact execution version
 - Keep the template generic and Mac-only
 - Add a lighter release note for the next iteration
 
