@@ -2,6 +2,8 @@
 
 A public-safe OpenClaw skill for parent-confirmed homework intake, Pomodoro execution, nightly completion checks, and reward approval.
 
+Published on ClawHub as `family-homework-pomodoro@1.0.0`.
+
 ## What it does
 
 This skill supports a simple family homework loop:
@@ -68,3 +70,5 @@ clean and easy to reuse.
 
 For a more detailed customization checklist, see
 [CUSTOMIZATION.md](./CUSTOMIZATION.md).
+
+For planned version notes, see [CHANGELOG.md](./CHANGELOG.md).

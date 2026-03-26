@@ -48,6 +48,8 @@ A reusable skill template for a minimal family homework workflow:
 - check completion status at night
 - require explicit parent approval before any reward notice
 
+Published on ClawHub as `family-homework-pomodoro@1.0.0`.
+
 Directory:
 
 - `skills/family-homework-pomodoro/`
