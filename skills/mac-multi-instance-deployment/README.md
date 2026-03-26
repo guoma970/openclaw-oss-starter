@@ -3,7 +3,7 @@
 A public-safe OpenClaw skill for generic Mac-based multi-instance deployment,
 boundary setup, sample config, and packaging hygiene.
 
-Published on ClawHub as `mac-multi-instance-deployment@1.0.2`.
+Published on ClawHub as `mac-multi-instance-deployment@1.0.3`.
 
 ## What it does
 
@@ -66,11 +66,13 @@ provides UI metadata.
 
 The example pack shows one generic Mac multi-instance flow:
 
+- `quickstart.md` for the shortest possible setup path
 - `setup-example.md` for workspace roots and instance labels
 - `routing-example.md` for where each instance should route work
 - `validation-example.md` for pack checks and public-safe validation
 
 For a quick index, see [examples/README.md](./examples/README.md).
+For the shortest path, see [examples/quickstart.md](./examples/quickstart.md).
 
 ## Support and customization
 
