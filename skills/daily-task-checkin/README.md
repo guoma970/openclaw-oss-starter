@@ -4,6 +4,10 @@ A public-safe OpenClaw skill for task intake, reminder flow, nightly completion 
 
 Published on ClawHub as `daily-task-checkin@1.0.2`.
 
+This is the broadest entry point in the current skill collection. It is a good
+starting point for users who want a simple reminder-and-check-in workflow with
+low setup overhead.
+
 ## What it does
 
 This skill supports a simple daily task loop:
@@ -23,6 +27,16 @@ It is a reusable template for:
 - parent-approved or operator-approved reminders
 - short reminder-based execution
 - public-safe OpenClaw skill examples
+
+## Positioning
+
+This skill is the most general-purpose template in the repository.
+
+Use it when you want:
+
+- a simple daily reminder loop
+- a lightweight confirmation flow
+- a public-safe template that is easy to adapt
 
 ## File structure
 

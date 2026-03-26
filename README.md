@@ -90,6 +90,8 @@ Pomodoro-based execution, nightly completion checks, and reward approval.
 A reusable daily task coordination skill for task intake, reminder flow,
 completion confirmation, and lightweight follow-up.
 
+Featured as the broadest entry point in this collection.
+
 - Path: `skills/daily-task-checkin/`
 - Published on ClawHub: `daily-task-checkin@1.0.2`
 - Use cases:
@@ -127,6 +129,10 @@ It focuses on reusable patterns such as:
 
 Selected skills in this repository are also published to the OpenClaw
 community registry through ClawHub.
+
+The current featured skill is `daily-task-checkin`, because it is the most
+general-purpose reminder template and the easiest starting point for new
+users.
 
 This repository will continue expanding with additional public-safe skill
 templates and documentation improvements.
