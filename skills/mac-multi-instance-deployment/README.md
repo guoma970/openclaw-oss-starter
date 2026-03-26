@@ -52,6 +52,7 @@ full example flow.
 ## Release notes
 
 For the current release note, see [releases/1.0.3.md](./releases/1.0.3.md).
+For the next lightweight plan, see [releases/1.0.4.md](./releases/1.0.4.md).
 For the version history, see [CHANGELOG.md](./CHANGELOG.md).
 
 ## Support and customization

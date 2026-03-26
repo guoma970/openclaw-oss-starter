@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.4 (planned)
+
+- Trim the skill body to a pure execution version
+- Keep the template generic and Mac-only
+- Add a lighter release note for the next iteration
+
 ## 1.0.3
 
 - Added a short quickstart to the skill README
@@ -14,4 +20,3 @@
 ## 1.0.1
 
 - Added the first example pack for Mac multi-instance deployment
-
