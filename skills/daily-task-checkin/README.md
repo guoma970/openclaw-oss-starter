@@ -75,3 +75,17 @@ Keep this skill public-safe:
 - Assistant: `The task list appears to be complete. Would you like to allow a reward or follow-up note today?`
 
 For the full example files, see [examples/](./examples/).
+
+## Support and customization
+
+This skill is intended to stay public-safe and reusable.
+
+If you later want a custom version, adapt:
+
+- task labels
+- reminder wording
+- completion wording
+- follow-up wording
+
+For public use, keep the skill generic and non-identifying. For custom work,
+keep the shared template clean and move private details into a separate copy.

@@ -82,17 +82,17 @@ Keep this skill public-safe:
 
 ## Support and customization
 
-This skill is intended to stay public-safe and reusable. If you later want a
-custom version, the natural extension points are:
+This skill is intended to stay public-safe and reusable.
 
-- alternate reminder cadence
-- multiple-child variants
-- different reward approval flows
-- richer local workflow metadata for a private deployment
+If you later want a custom version, adapt:
+
+- reminder cadence
+- child count or role count
+- reward approval wording
+- deployment-specific metadata
 
 For public use, keep the skill generic and non-identifying. For custom work,
-handle requests separately from the public template so the shared version stays
-clean and easy to reuse.
+keep the shared template clean and move private details into a separate copy.
 
 For a more detailed customization checklist, see
 [CUSTOMIZATION.md](./CUSTOMIZATION.md).

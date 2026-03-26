@@ -63,3 +63,17 @@ Keep this skill public-safe:
 For the full example files, see [examples/](./examples/).
 
 For version notes, see [CHANGELOG.md](./CHANGELOG.md).
+
+## Support and customization
+
+This skill is intended to stay public-safe and reusable.
+
+If you later want a custom version, adapt:
+
+- task labels
+- reminder wording
+- completion wording
+- follow-up wording
+
+For public use, keep the skill generic and non-identifying. For custom work,
+keep the shared template clean and move private details into a separate copy.
