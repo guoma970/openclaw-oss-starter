@@ -1,0 +1,8 @@
+interface:
+  display_name: "Cross-Post Adapter"
+  short_description: "Adapt one launch message for multiple channels"
+  default_prompt: "Use $cross-post-adapter to convert one announcement into X, Telegram, Discord, Slack, Feishu, and GitHub-ready variants."
+
+policy:
+  allow_implicit_invocation: true
+

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Marketing Post Generator"
+  short_description: "Generate short public-safe launch and promo copy"
+  default_prompt: "Use $marketing-post-generator to create public-safe marketing copy for a project launch, update, or release."
+
+policy:
+  allow_implicit_invocation: true
+

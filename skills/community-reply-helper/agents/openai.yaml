@@ -1,0 +1,7 @@
+interface:
+  display_name: "Community Reply Helper"
+  short_description: "Draft short public replies for project comments and questions"
+  default_prompt: "Use $community-reply-helper to draft concise, public-safe replies to community comments, questions, and follow-ups."
+
+policy:
+  allow_implicit_invocation: true

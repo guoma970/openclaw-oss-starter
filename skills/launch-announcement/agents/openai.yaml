@@ -1,0 +1,8 @@
+interface:
+  display_name: "Launch Announcement"
+  short_description: "Turn updates into clear public launch announcements"
+  default_prompt: "Use $launch-announcement to write a concise public announcement for a release, new skill, or repository update."
+
+policy:
+  allow_implicit_invocation: true
+
