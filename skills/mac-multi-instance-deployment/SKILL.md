@@ -1,7 +1,7 @@
 ---
 name: mac-multi-instance-deployment
 description: Public-safe Mac multi-instance deployment skill for generic OpenClaw-style workspace layout, boundary notes, sample config, and pack validation.
-version: 1.0.3
+version: 1.0.4
 ---
 
 # Mac Multi-Instance Deployment / Mac 多实例部署

@@ -121,7 +121,7 @@ A generic Mac deployment skill for setting up, naming, and validating multiple
 local OpenClaw-style workspaces.
 
 - Path: `skills/mac-multi-instance-deployment/`
-- Published on ClawHub: `mac-multi-instance-deployment@1.0.3`
+- Published on ClawHub: `mac-multi-instance-deployment@1.0.4`
 - Use cases:
   - generic Mac multi-instance workspace planning
   - public-safe boundary and index docs

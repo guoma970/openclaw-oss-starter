@@ -3,7 +3,7 @@
 Compact public-safe template for generic Mac multi-instance setup and pack
 validation.
 
-Published on ClawHub as `mac-multi-instance-deployment@1.0.3`.
+Published on ClawHub as `mac-multi-instance-deployment@1.0.4`.
 
 ## Quickstart
 
@@ -23,7 +23,7 @@ Published on ClawHub as `mac-multi-instance-deployment@1.0.3`.
 ## Links
 
 - [examples/README.md](./examples/README.md)
-- [releases/1.0.3.md](./releases/1.0.3.md)
+- [releases/1.0.4.md](./releases/1.0.4.md)
+- [PUBLISHING.md](./PUBLISHING.md)
 - [CHANGELOG.md](./CHANGELOG.md)
 - [CUSTOMIZATION.md](./CUSTOMIZATION.md)
-
