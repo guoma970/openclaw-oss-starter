@@ -7,5 +7,6 @@ node_modules/
 dist/
 build/
 SKILL.md
+!skills/**/SKILL.md
 proactive-fix-20260323/
 rules-fix-20260323/*_AGENTS.md
