@@ -65,3 +65,6 @@ custom version, the natural extension points are:
 For public use, keep the skill generic and non-identifying. For custom work,
 handle requests separately from the public template so the shared version stays
 clean and easy to reuse.
+
+For a more detailed customization checklist, see
+[CUSTOMIZATION.md](./CUSTOMIZATION.md).
