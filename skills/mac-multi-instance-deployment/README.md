@@ -15,6 +15,14 @@ This skill supports a simple local deployment loop:
 - update sample config and boundary notes
 - validate that public packs exclude private files
 
+## Quickstart
+
+1. Copy `config/local-multi-instance.example.env` into a private location.
+2. Replace the placeholder workspace roots with your own Mac paths.
+3. Keep the instance map generic: `main`, `workbench`, `publish`, `archive`, `private`.
+4. Run `./validate_repo.sh` and `./generate_public_pack.sh --dry-run`.
+5. Review `references/instances.md` before publishing.
+
 ## Why it exists
 
 It is a reusable template for:
