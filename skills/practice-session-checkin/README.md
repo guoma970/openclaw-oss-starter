@@ -2,6 +2,8 @@
 
 A public-safe OpenClaw skill for structured practice task intake, start confirmation, reminder flow, completion checks, and follow-up tracking.
 
+Published on ClawHub as `practice-session-checkin@1.0.1`.
+
 ## What it does
 
 This skill supports a simple practice-session loop:
@@ -59,3 +61,5 @@ Keep this skill public-safe:
 - Assistant: `Understood. I will record that the session is unfinished and ask how you would like to continue later.`
 
 For the full example files, see [examples/](./examples/).
+
+For version notes, see [CHANGELOG.md](./CHANGELOG.md).

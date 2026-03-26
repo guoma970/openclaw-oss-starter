@@ -1,7 +1,7 @@
 ---
 name: practice-session-checkin
 description: Public-safe practice session intake, start confirmation, reminder flow, completion check, and follow-up tracking.
-version: 1.0.0
+version: 1.0.1
 ---
 
 # Practice Session Check-in / 专项练习打卡助手

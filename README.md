@@ -133,7 +133,7 @@ Read more:
 - This skill is public-safe and reusable as a generic family workflow template
 - `daily-task-checkin@1.0.2`
 - Both skills are public-safe and reusable as generic workflow templates
-- `practice-session-checkin@1.0.0`
+- `practice-session-checkin@1.0.1`
 - All three skills are public-safe and reusable as generic workflow templates
 
 ## Roadmap
