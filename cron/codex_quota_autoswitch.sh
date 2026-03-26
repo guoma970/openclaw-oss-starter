@@ -2,6 +2,23 @@
 set -euo pipefail
 
 # Auto-switch execution agents to MiniMax when OpenAI Codex remaining quota is low.
+show_help() {
+  cat <<'EOF'
+Usage: codex_quota_autoswitch.sh [threshold]
+
+Switch family/media/business agents to MiniMax when Codex quota falls below
+the given percentage threshold.
+
+Arguments:
+  threshold   Optional integer percent threshold. Default: 20
+EOF
+}
+
+if [[ "${1:-}" == "-h" || "${1:-}" == "--help" ]]; then
+  show_help
+  exit 0
+fi
+
 # Default threshold: 20 (%)
 THRESHOLD="${1:-20}"
 LOG_FILE="${HOME}/.openclaw/logs/codex-quota-autoswitch.log"
