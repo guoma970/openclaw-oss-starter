@@ -73,6 +73,7 @@ files=(
   "examples"
   "config"
   "references"
+  "skills"
   "rules-fix-20260323/main_index.md"
   "rules-fix-20260323/family_boundary.md"
   "rules-fix-20260323/business_MEMORY_PUBLIC.md"
@@ -84,6 +85,7 @@ files=(
   "releases/0.1.3.md"
   "releases/0.1.4.md"
   "releases/0.1.5.md"
+  "releases/0.1.6.md"
 )
 
 if [[ "$mode" == "--list" ]]; then

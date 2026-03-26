@@ -30,6 +30,32 @@ public docs, private runtime state, and routing rules.
 - `examples/`: a copyable minimal workflow example
 - `examples/pack_and_validate.sh`: a runnable example that validates and builds a public pack
 - `INSTALL.md`: a short install and usage guide
+- `skills/`: public-safe skill examples
+
+## Included public-safe skills
+
+This repository contains public-safe skill examples that can be adapted for
+local AI workflow orchestration and OpenClaw-style multi-role systems.
+
+### family-homework-pomodoro / 家庭作业番茄执行助手
+
+A reusable skill template for a minimal family homework workflow:
+
+- receive same-day homework from parent
+- record homework without adding assumptions
+- confirm homework start time with parent
+- guide execution with a Pomodoro rhythm
+- check completion status at night
+- require explicit parent approval before any reward notice
+
+Directory:
+
+- `skills/family-homework-pomodoro/`
+
+Read more:
+
+- [README](./skills/family-homework-pomodoro/README.md)
+- [SKILL.md](./skills/family-homework-pomodoro/SKILL.md)
 
 ## Current features
 
@@ -86,6 +112,7 @@ most reliable invocation.
 - `generate_public_pack.sh`: public release bundling helper
 - `validate_repo.sh`: repo readiness check
 - `INSTALL.md`: quick install guide
+- `skills/family-homework-pomodoro/`: public-safe homework skill example
 
 ## Why this is useful
 

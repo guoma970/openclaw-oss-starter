@@ -8,6 +8,11 @@ The format follows a lightweight keep-a-changelog style.
 
 - Future work on workflow samples, packaging polish, and optional config expansion
 
+## [0.1.6] - 2026-03-26
+
+- Public-safe OpenClaw skill for family homework Pomodoro flow
+- Skills directory added to install, validation, and public pack flows
+
 ## [0.1.5] - 2026-03-26
 
 - Example script that validates and builds a public pack
