@@ -60,6 +60,8 @@ chmod +x cron/codex_quota_autoswitch.sh generate_public_pack.sh validate_repo.sh
 ./validate_repo.sh
 ./cron/codex_quota_autoswitch.sh --help
 ./generate_public_pack.sh
+./generate_public_pack.sh --list
+./generate_public_pack.sh --dry-run
 ```
 
 If your environment does not support `--help` for the cron helper, run it
