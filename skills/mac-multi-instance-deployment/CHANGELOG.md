@@ -2,7 +2,8 @@
 
 ## 1.0.4 (planned)
 
-- Shorten `SKILL.md` into a minimal execution checklist.
+- Finalize `SKILL.md` as a minimal execution checklist.
+- Keep the Mac boundary rules generic.
 
 ## 1.0.3
 

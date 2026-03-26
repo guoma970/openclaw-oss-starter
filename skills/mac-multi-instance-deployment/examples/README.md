@@ -1,6 +1,6 @@
 # Examples
 
-This folder shows a simple, public-safe Mac multi-instance setup flow.
+Short index for the public-safe Mac multi-instance walkthrough.
 
 ## Files
 
@@ -10,10 +10,9 @@ This folder shows a simple, public-safe Mac multi-instance setup flow.
 - [routing-example.md](./routing-example.md)
 - [validation-example.md](./validation-example.md)
 
-## Use
+## Read order
 
-Read them in order if you want a concrete walk-through:
-
-1. assign workspace roots
-2. map roles and routing
-3. validate the public pack
+1. `quickstart.md`
+2. `setup-example.md`
+3. `routing-example.md`
+4. `validation-example.md`
