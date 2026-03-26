@@ -1,7 +1,7 @@
 ---
 name: family-homework-pomodoro
 description: Parent-confirmed homework intake, Pomodoro execution, nightly completion checks, and reward approval.
-version: 1.0.0
+version: 1.0.1
 ---
 
 # Family Homework Pomodoro / 家庭作业番茄执行助手

@@ -7,11 +7,12 @@ A public-safe toolkit for local multi-agent workflow orchestration, routing rule
 This repository shows how to organize a local AI workspace without mixing
 public docs, private runtime state, and routing rules.
 
-## What problem this project solves
+## What this project solves
 
 - Helps solo operators organize multiple local AI roles safely
 - Separates public-safe rules from private runtime state
 - Provides reusable shell helpers and reference docs for local automation
+- Publishes a small public-safe skill pack for local OpenClaw-style workflows
 
 ## Who this is for
 
@@ -48,7 +49,7 @@ A reusable skill template for a minimal family homework workflow:
 - check completion status at night
 - require explicit parent approval before any reward notice
 
-Published on ClawHub as `family-homework-pomodoro@1.0.0`.
+Published on ClawHub as `family-homework-pomodoro@1.0.1`.
 
 Directory:
 
@@ -62,6 +63,42 @@ Read more:
 - [README](./skills/family-homework-pomodoro/README.md)
 - [SKILL.md](./skills/family-homework-pomodoro/SKILL.md)
 
+### daily-task-checkin / 日常任务打卡助手
+
+A reusable skill template for a simple daily task check-in loop:
+
+- receive a task list from the parent or operator
+- record the task list without adding assumptions
+- confirm the intended start time before reminders
+- send short reminder messages during the day
+- check completion status at night
+- ask whether a reward or follow-up note is allowed
+
+Directory:
+
+- `skills/daily-task-checkin/`
+- `skills/daily-task-checkin/SKILL.md` main skill entrypoint
+- `skills/daily-task-checkin/agents/openai.yaml` UI metadata
+- `skills/daily-task-checkin/README.md` human-readable overview
+
+Read more:
+
+- [README](./skills/daily-task-checkin/README.md)
+- [SKILL.md](./skills/daily-task-checkin/SKILL.md)
+
+## Published to ClawHub
+
+- `family-homework-pomodoro@1.0.1`
+- This skill is public-safe and reusable as a generic family workflow template
+- `daily-task-checkin@1.0.1`
+- Both skills are public-safe and reusable as generic workflow templates
+
+## Roadmap
+
+- `family-homework-pomodoro@1.0.1`: examples, customization polish, and clearer usage notes
+- `daily-task-checkin@1.0.1`: a second public-safe template for a broader reminder flow
+- tighter repository metadata for ClawHub discoverability
+
 ## Current features
 
 - quota-aware switching helper
@@ -70,12 +107,6 @@ Read more:
 - public-safe routing references
 - boundary/rules documentation pack
 - release notes structure
-
-## Next planned features
-
-- installation guide
-- example workflow pack expansion
-- repo validation helper improvements
 
 ## Notes
 

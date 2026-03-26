@@ -2,9 +2,9 @@
 
 This changelog tracks future updates for the `family-homework-pomodoro` skill.
 
-## [1.0.1] - Planned
+## [1.0.1] - 2026-03-26
 
-### Planned improvements
+### Highlights
 
 - add a short example conversation
 - add optional multi-child guidance

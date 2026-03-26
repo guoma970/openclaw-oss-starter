@@ -2,7 +2,7 @@
 
 A public-safe OpenClaw skill for parent-confirmed homework intake, Pomodoro execution, nightly completion checks, and reward approval.
 
-Published on ClawHub as `family-homework-pomodoro@1.0.0`.
+Published on ClawHub as `family-homework-pomodoro@1.0.1`.
 
 ## What it does
 
@@ -54,6 +54,26 @@ Keep this skill public-safe:
 - public-safe family workflow demos
 - local AI homework reminder prototypes
 
+## Examples
+
+### Parent example
+
+- Parent: `Today the homework is math worksheet 3 and reading 2 pages.`
+- Assistant: `Recorded as provided. What time should homework begin today?`
+- Parent: `Start at 6:30 PM.`
+- Assistant: `Understood. I will remind the child at 6:30 PM and use a 25/5 Pomodoro rhythm by default.`
+
+### Child reminder example
+
+- Assistant: `It is time to start homework now. Begin with one 25-minute study session.`
+- Assistant: `After that, take a 5-minute break.`
+
+### Reward approval example
+
+- Assistant to parent: `The homework appears to be completed well. Would you like to allow a reward today?`
+- Parent: `Yes, reward is allowed.`
+- Assistant to child: `Nice work. Your parent approved a reward for today.`
+
 ## Support and customization
 
 This skill is intended to stay public-safe and reusable. If you later want a
@@ -74,3 +94,5 @@ For a more detailed customization checklist, see
 For planned version notes, see [CHANGELOG.md](./CHANGELOG.md).
 
 For the next structured release note, see [releases/1.0.1.md](./releases/1.0.1.md).
+
+For a concise example pack, see [EXAMPLES.md](./EXAMPLES.md).
