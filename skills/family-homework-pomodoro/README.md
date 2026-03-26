@@ -1,69 +1,28 @@
 # 家庭作业番茄执行助手
 
-A public-safe OpenClaw skill for parent-confirmed homework intake, Pomodoro execution, nightly completion check, and reward approval flow.
+A public-safe OpenClaw skill for parent-confirmed homework intake, Pomodoro execution, nightly completion checks, and reward approval.
 
-## 简介
+## What it does
 
-**家庭作业番茄执行助手** 是一个面向家庭作业场景的通用技能模板。
+This skill supports a simple family homework loop:
 
-它帮助建立一个简单、清晰、可执行的作业协同闭环：
+1. a parent sends same-day homework
+2. the assistant records the homework as provided
+3. the assistant confirms the homework start time with the parent
+4. the assistant reminds the child to begin homework using a Pomodoro rhythm
+5. the assistant checks completion status with the parent at night
+6. the assistant asks the parent whether a reward is allowed if the day went well
 
-1. 家长发送当天作业
-2. 助手按原样记录作业
-3. 助手先向家长确认开始时间
-4. 到点后提醒孩子按番茄法执行
-5. 晚间向家长确认完成情况
-6. 作业完成良好后，由家长决定是否允许奖励
+## Why it exists
 
-这个 skill 适合作为：
+It is a reusable template for:
 
-- 家庭作业协同助手
-- 亲子学习执行模板
-- OpenClaw 社区通用示例 skill
-- public-safe 的家庭学习 workflow 示例
+- family homework coordination
+- parent-approved homework reminders
+- simple Pomodoro-based execution
+- public-safe OpenClaw skill examples
 
----
-
-## 核心能力
-
-- 接收家长发送的当天作业
-- 原样记录作业内容，不脑补
-- 开始前先确认，不擅自执行
-- 默认采用番茄法节奏：
-  - 25 分钟学习
-  - 5 分钟休息
-- 晚间向家长确认作业完成情况
-- 仅在家长明确允许后，才向孩子发送奖励相关通知
-
----
-
-## 适用场景
-
-本 skill 适合以下场景：
-
-- 家长每天需要发送孩子当天作业
-- 希望助手帮助提醒开始时间
-- 希望孩子按简单节奏执行作业
-- 希望晚间统一确认完成情况
-- 希望把奖励机制放在家长确认之后
-
----
-
-## 不包含的内容
-
-本 skill 是极简通用模板，不包含：
-
-- 兴趣班课表
-- 舞蹈 / 体育 / 专项训练规则
-- 长期复杂家庭作息
-- 真实家庭成员信息
-- 学校名称、群 ID、账号 ID
-- 敏感健康信息
-- 高定制的家庭内部制度
-
----
-
-## 文件结构
+## File structure
 
 ```text
 skills/
@@ -74,95 +33,21 @@ skills/
       openai.yaml
 ```
 
-主入口是 `SKILL.md`，`README.md` 用于人类阅读，`agents/openai.yaml` 提供 UI 元数据。
+`SKILL.md` is the main skill entrypoint. `README.md` is for human readers, and `agents/openai.yaml` provides UI metadata.
 
----
+## Safety boundaries
 
-## 工作流程
+Keep this skill public-safe:
 
-本 skill 按以下顺序执行：
+- no real names
+- no school names
+- no group IDs or account IDs
+- no private schedules tied to identity
+- no sensitive personal or health information
 
-1. 接收家长发送的当天作业
-2. 识别为当天作业事项
-3. 原样记录作业
-4. 向家长确认今天何时开始
-5. 等待家长确认
-6. 到确认时间后提醒孩子开始
-7. 如有需要，按番茄法引导执行
-8. 晚间向家长确认是否完成
-9. 若完成良好，询问家长是否允许奖励
-10. 只有在家长明确允许后，才通知孩子奖励结果
+## Where to use it
 
----
-
-## 设计原则
-
-### 1. 先确认，再执行
-
-未确认开始时间前，不提醒孩子开始。
-
-### 2. 先记录，再提醒
-
-先把作业信息接住，再进入执行流程。
-
-### 3. 不脑补
-
-不擅自增加页码、截止时间、签名、提交要求等未提供信息。
-
-### 4. 家长控制奖励
-
-奖励不是自动触发，必须经过家长确认。
-
-### 5. 公共安全
-
-所有示例都应保持通用化、脱敏化、可复用。
-
----
-
-## 示例用途
-
-你可以把它用于：
-
-- OpenClaw 本地技能库
-- ClawHub / 社区技能条目
-- 家庭学习提醒系统原型
-- 多角色协同示例项目
-- 本地 AI 家庭任务工作流
-
----
-
-## 发布说明
-
-本 skill 为 public-safe 模板，适合公开发布到 GitHub，也适合作为 OpenClaw 社区共享技能的基础版本。
-
-如需进一步扩展，可后续增加：
-
-- 示例对话
-- 配置模板
-- 多孩子版本
-- 长周期作业版本
-- 周末补做版本
-
----
-
-## 安装建议
-
-将本目录放入你的 skills 目录中：
-
-```text
-skills/family-homework-pomodoro/
-```
-
-并确保 `SKILL.md` 为主技能文件。
-
----
-
-## 许可证与隐私提醒
-
-在公开发布前，请确保：
-
-- 不包含真实姓名
-- 不包含真实群名
-- 不包含真实家庭作息
-- 不包含学校与个人隐私信息
-- 不包含任何可识别未成年人身份的内容
+- OpenClaw local skill library
+- community skill examples
+- public-safe family workflow demos
+- local AI homework reminder prototypes
