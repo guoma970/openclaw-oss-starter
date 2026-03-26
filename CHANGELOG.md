@@ -6,7 +6,13 @@ The format follows a lightweight keep-a-changelog style.
 
 ## [Unreleased]
 
-- Future work on installation docs, workflow packs, and repo polish
+- Future work on workflow samples, packaging polish, and optional config expansion
+
+## [0.1.2] - 2026-03-26
+
+- More complete install guide
+- More concrete example workflow
+- Help output for the public pack generator
 
 ## [0.1.1] - 2026-03-26
 

@@ -28,6 +28,7 @@ public docs, private runtime state, and routing rules.
 - `references/instances.md`: a quick index of the local OpenClaw instance layout
 - `rules-fix-20260323/`: boundary and routing notes for the local multi-instance setup
 - `examples/`: a copyable minimal workflow example
+- `INSTALL.md`: a short install and usage guide
 
 ## Current features
 
@@ -75,6 +76,7 @@ without arguments and review the log at `~/.openclaw/logs/codex-quota-autoswitch
 - `releases/`: per-release notes and packaging helpers
 - `generate_public_pack.sh`: public release bundling helper
 - `validate_repo.sh`: repo readiness check
+- `INSTALL.md`: quick install guide
 
 ## Why this is useful
 

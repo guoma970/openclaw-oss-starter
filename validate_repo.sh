@@ -3,6 +3,7 @@ set -euo pipefail
 
 required=(
   "README.md"
+  "INSTALL.md"
   "LICENSE"
   "SECURITY.md"
   "CHANGELOG.md"
@@ -10,6 +11,7 @@ required=(
   "cron/codex_quota_autoswitch.sh"
   "generate_public_pack.sh"
   "config/local-multi-instance.example.env"
+  "examples/workflow.md"
 )
 
 missing=0
