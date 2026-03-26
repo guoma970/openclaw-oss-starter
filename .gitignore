@@ -2,8 +2,10 @@
 *.bak-*
 *_HEARTBEAT.md
 *_MEMORY.md
-*_MEMORY_PUBLIC.md
 .openclaw/
 node_modules/
 dist/
 build/
+SKILL.md
+proactive-fix-20260323/
+rules-fix-20260323/*_AGENTS.md
