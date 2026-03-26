@@ -36,7 +36,13 @@ Use the scripts and docs here as a base for your own local AI automation setup.
 - `cron/`: shell helpers for local automation
 - `references/`: instance and routing references
 - `rules-fix-20260323/`: public-safe boundary and shared rule docs
+- `CHANGELOG.md`: release history and notable changes
+- `releases/`: per-release notes and packaging helpers
 
 ## Contributing
 
 See [CONTRIBUTING.md](./CONTRIBUTING.md) for the contribution workflow.
+
+## Releases
+
+See [RELEASES.md](./RELEASES.md) for the release process and note format.
