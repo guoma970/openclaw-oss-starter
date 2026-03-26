@@ -18,3 +18,10 @@
 - keep one GitHub link as the primary CTA
 - mention ClawHub only if the audience will understand it
 
+## Current media targets
+
+- `oc_fec0f098074ffeaf9a55ed5d4f55d7b0`
+- `oc_8c6222d7f6ade3e47cf297015623b36d`
+
+Both are already present in the `media` account allowlist.
+
