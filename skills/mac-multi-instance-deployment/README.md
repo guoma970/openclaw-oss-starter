@@ -49,6 +49,11 @@ Keep this skill public-safe:
 See [examples/README.md](./examples/README.md) for the shortest path and the
 full example flow.
 
+## Release notes
+
+For the current release note, see [releases/1.0.3.md](./releases/1.0.3.md).
+For the version history, see [CHANGELOG.md](./CHANGELOG.md).
+
 ## Support and customization
 
 This skill is intended to stay generic and reusable.
