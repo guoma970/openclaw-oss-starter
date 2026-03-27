@@ -40,3 +40,8 @@ publishing copy, and application materials.
 - `27-publishing-decision-template.md` for standard publish decisions
 - `28-skill-publishing-approval-flow.md` for approval sequencing
 - `29-local-only-content-management.md` for local-only content handling
+- `30-public-pipeline-sequence.md` for public release order
+- `31-version-update-trigger-rules.md` for version-sync triggers
+- `30-unified-ops-group-rules.md` for unified Feishu ops-group collaboration rules
+- `31-ops-group-applicability-matrix.md` for group ownership and applicability mapping
+- `32-standard-group-message-templates.md` for reusable in-group structured message templates
