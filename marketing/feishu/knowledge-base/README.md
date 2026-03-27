@@ -23,3 +23,5 @@ publishing copy, and application materials.
 - `MAIN_PUBLISH_FLOW.md` for publish-flow usage
 - `run_main_periodic_check.sh` for recurring project checks
 - `MAIN_PERIODIC_SYNC.md` for periodic sync usage
+- `12-command-library.md` for reusable `main` command patterns
+- `13-evergreen-publishing-checklist.md` for long-term publishing routines
