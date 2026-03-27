@@ -11,7 +11,7 @@ documents.
 
 ## Inputs
 
-- one execution account such as `xiaoguo`
+- one execution account such as `media`
 - one `wiki_space` or `wiki_node`
 - one manifest describing titles, order, and source files
 
@@ -20,3 +20,6 @@ documents.
 - created or updated Feishu pages
 - returned document URLs
 - brief publish summary
+
+`xiaoguo` is treated as the knowledge-base maintenance role name of the same
+`media` executor.

@@ -7,7 +7,8 @@ automatic execution.
 
 ## Execution owner
 
-- `xiaoguo` handles Feishu knowledge-base publishing and ongoing page updates.
+- `media` handles Feishu knowledge-base publishing and ongoing page updates.
+- `xiaoguo` is treated as the knowledge-base maintenance role name of `media`.
 
 ## Required target fields
 
@@ -24,7 +25,7 @@ matches those directory keys.
 Publishing must follow
 [directory-rules.yaml](/Users/ztl/Documents/New project/marketing/feishu/knowledge-base/directory-rules.yaml).
 
-`xiaoguo` should not guess where a page goes. Each page key must map to one
+`media` should not guess where a page goes. Each page key must map to one
 configured directory target before publishing.
 
 ## One-file target input

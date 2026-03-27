@@ -1,8 +1,8 @@
 # Preflight Checklist
 
-## Before xiaoguo runs
+## Before media runs
 
-- confirm `xiaoguo` has write permission to the target knowledge base
+- confirm `media` has write permission to the target knowledge base
 - fill
   [targets.template.yaml](/Users/ztl/Documents/New project/marketing/feishu/knowledge-base/targets.template.yaml)
 - confirm each directory node points to the correct Feishu section

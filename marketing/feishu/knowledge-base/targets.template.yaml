@@ -1,5 +1,5 @@
 version: 1
-executor: xiaoguo
+executor: media
 channel: feishu
 root_target:
   wiki_space: "<fill-wiki-space>"

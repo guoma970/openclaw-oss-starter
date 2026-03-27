@@ -1,5 +1,5 @@
 version: 1
-default_executor: xiaoguo
+default_executor: media
 channel: feishu
 root_policy:
   description: "Do not publish directly to the wiki root unless a rule explicitly allows it."

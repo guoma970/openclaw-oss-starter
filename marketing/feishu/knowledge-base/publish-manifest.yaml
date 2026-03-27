@@ -1,5 +1,5 @@
 version: 1
-executor: xiaoguo
+executor: media
 channel: feishu
 target:
   config_file: "marketing/feishu/knowledge-base/targets.template.yaml"
@@ -26,7 +26,7 @@ pages:
 rules:
   - "publish only after target wiki token is explicit"
   - "read root and directory targets from targets.template.yaml"
-  - "use xiaoguo for knowledge-base execution"
+  - "use media for knowledge-base execution"
   - "keep content public-safe"
   - "route each page by directory-rules.yaml before publishing"
   - "return created or updated doc URLs"
