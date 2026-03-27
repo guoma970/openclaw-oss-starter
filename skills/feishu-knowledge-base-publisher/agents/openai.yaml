@@ -1,0 +1,4 @@
+agent:
+  display_name: "Feishu Knowledge Base Publisher"
+  short_description: "Publish approved public-safe pages to a Feishu knowledge base"
+  default_prompt: "Use $feishu-knowledge-base-publisher to publish approved public-safe Markdown pages into a Feishu knowledge base using the xiaoguo execution account and an explicit wiki target."
