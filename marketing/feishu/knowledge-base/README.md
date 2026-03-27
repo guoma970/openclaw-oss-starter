@@ -14,3 +14,6 @@ publishing copy, and application materials.
 - `XIAOGUO_SYNC.md` for maintenance command usage
 - `run_main_dispatch.sh` for main-hub orchestration
 - `MAIN_DISPATCH.md` for main dispatch usage
+- `MAIN_CHAT_COMMANDS.md` for Feishu `main` chat templates
+- `run_main_publish_flow.sh` for a broader main-led publish flow
+- `MAIN_PUBLISH_FLOW.md` for publish-flow usage
