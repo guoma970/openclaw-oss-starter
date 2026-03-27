@@ -36,3 +36,5 @@ publishing copy, and application materials.
 - `23-prepublish-checklist.md` for pre-publish review
 - `24-publishable-skill-candidate-pool.md` for future public skill candidates
 - `25-do-not-publish-list.md` for hard non-public content rules
+- `26-skill-tiering-rules.md` for publishability tiers
+- `27-publishing-decision-template.md` for standard publish decisions
