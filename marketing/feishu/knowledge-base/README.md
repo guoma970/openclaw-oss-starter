@@ -30,3 +30,5 @@ publishing copy, and application materials.
 - `MAIN_DAILY_SHORT_COMMANDS.md` for quick Feishu `main` commands
 - `16-standard-report-template.md` for consistent task summaries
 - `17-blocker-and-exception-rules.md` for blocker handling and fallback rules
+- `18-feishu-sync-receipt-log.md` for sync-result tracking
+- `19-publishing-execution-checklist.md` for cross-platform publishing checks
