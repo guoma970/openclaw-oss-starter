@@ -1,0 +1,16 @@
+version: 1
+executor: xiaoguo
+channel: feishu
+root_target:
+  wiki_space: "<fill-wiki-space>"
+  wiki_node: "<optional-root-parent-node>"
+directories:
+  project_status:
+    label: "项目总览"
+    target_node: "<fill-parent-node-for-project-status>"
+  publishing_assets:
+    label: "对外发布"
+    target_node: "<fill-parent-node-for-publishing-assets>"
+  application_assets:
+    label: "申请与介绍"
+    target_node: "<fill-parent-node-for-application-assets>"

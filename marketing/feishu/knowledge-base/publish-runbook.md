@@ -13,13 +13,11 @@ automatic execution.
 
 Before execution, fill:
 
-- one root target:
-  - `wiki_space`
-  - or `wiki_node`
-- the directory targets in
+- the root target and directory targets in
+  [targets.template.yaml](/Users/ztl/Documents/New project/marketing/feishu/knowledge-base/targets.template.yaml)
+- and confirm the routing file in
   [directory-rules.yaml](/Users/ztl/Documents/New project/marketing/feishu/knowledge-base/directory-rules.yaml)
-
-in [publish-manifest.yaml](/Users/ztl/Documents/New project/marketing/feishu/knowledge-base/publish-manifest.yaml).
+matches those directory keys.
 
 ## Routing rule
 
@@ -28,6 +26,12 @@ Publishing must follow
 
 `xiaoguo` should not guess where a page goes. Each page key must map to one
 configured directory target before publishing.
+
+## One-file target input
+
+Use
+[targets.template.yaml](/Users/ztl/Documents/New project/marketing/feishu/knowledge-base/targets.template.yaml)
+as the single place to fill Feishu targets before execution.
 
 ## Publish order
 

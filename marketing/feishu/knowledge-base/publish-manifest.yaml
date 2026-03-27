@@ -2,8 +2,9 @@ version: 1
 executor: xiaoguo
 channel: feishu
 target:
-  wiki_space: "<fill-wiki-space-or-use-wiki-node>"
-  wiki_node: "<optional-parent-node>"
+  config_file: "marketing/feishu/knowledge-base/targets.template.yaml"
+  wiki_space: "<read-from-config-file>"
+  wiki_node: "<read-from-config-file>"
   routing_file: "marketing/feishu/knowledge-base/directory-rules.yaml"
 mode: create_or_update
 pages:
@@ -24,6 +25,7 @@ pages:
     directory: "application_assets"
 rules:
   - "publish only after target wiki token is explicit"
+  - "read root and directory targets from targets.template.yaml"
   - "use xiaoguo for knowledge-base execution"
   - "keep content public-safe"
   - "route each page by directory-rules.yaml before publishing"
