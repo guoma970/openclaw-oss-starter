@@ -2,7 +2,9 @@
 
 This skill is intended for the `media` execution flow.
 
-`xiaoguo` is the knowledge-base maintenance role name of the same executor.
+`media` is the local instance / directory name.
+
+`小果` is the Feishu bot name bound to that same executor.
 
 ## Preconditions
 

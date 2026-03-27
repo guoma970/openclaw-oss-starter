@@ -5,8 +5,9 @@
 Use the knowledge-base maintenance path to sync the OpenClaw project pages into
 the Feishu directory.
 
-`xiaoguo` is not treated as a separate executor here. It is the knowledge-base
-maintenance role name of the same `media` executor.
+`media` is the local instance / directory name.
+
+`小果` is the Feishu bot name used by that same instance.
 
 ## Command
 
@@ -25,4 +26,4 @@ bash /Users/ztl/Documents/New\ project/marketing/feishu/knowledge-base/run_xiaog
 - This path is intended for knowledge-base maintenance work under `media`.
 - It uses the same source files as the media sync path.
 - The current environment routes through the `media` agent session.
-- The instruction style is tailored for the `xiaoguo` maintenance role name.
+- In Feishu, the visible bot name is `小果`.

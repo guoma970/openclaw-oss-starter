@@ -21,5 +21,6 @@ documents.
 - returned document URLs
 - brief publish summary
 
-`xiaoguo` is treated as the knowledge-base maintenance role name of the same
-`media` executor.
+`media` is the local instance / directory name.
+
+`小果` is the Feishu bot name bound to that same executor.

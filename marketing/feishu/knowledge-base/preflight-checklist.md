@@ -3,6 +3,7 @@
 ## Before media runs
 
 - confirm `media` has write permission to the target knowledge base
+- confirm the Feishu bot `小果` is the one bound to this execution path
 - fill
   [targets.template.yaml](/Users/ztl/Documents/New project/marketing/feishu/knowledge-base/targets.template.yaml)
 - confirm each directory node points to the correct Feishu section

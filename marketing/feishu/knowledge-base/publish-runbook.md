@@ -8,7 +8,8 @@ automatic execution.
 ## Execution owner
 
 - `media` handles Feishu knowledge-base publishing and ongoing page updates.
-- `xiaoguo` is treated as the knowledge-base maintenance role name of `media`.
+- `media` is the local instance / directory name.
+- `小果` is the Feishu bot name used by that instance.
 
 ## Required target fields
 
