@@ -68,3 +68,5 @@ publishing copy, and application materials.
 - `53-main-project-registry-command.md` for the registry-based daily-check command
 - `56-new-project-review-flow.md` for how main should review new projects
 - `57-new-project-review-report-template.md` for standard reporting after a new project review
+- `58-main-handover-activation-message.md` for the formal handover message to main
+- `59-main-takeover-acceptance-criteria.md` for deciding whether main has truly taken over
