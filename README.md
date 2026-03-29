@@ -3,8 +3,20 @@
 Public-safe OpenClaw skill templates for local AI coordination workflows.
 
 This repository focuses on structured task intake, confirmation logic,
-reminder orchestration, Mac multi-instance deployment, and parent-approved
-execution flows.
+reminder orchestration, Mac multi-instance deployment, parent-approved
+execution flows, and public-safe Feishu coordination templates.
+
+> A public-safe OpenClaw skill collection across reusable skill publishing and
+> workflow operations.
+
+## Quick Links
+
+- [Skills](#included-skills)
+- [Install](./INSTALL.md)
+- [Examples](./examples/)
+- [Mac deployment](./skills/mac-multi-instance-deployment/README.md)
+- [Feishu knowledge base pack](./marketing/feishu/knowledge-base/README.md)
+- [ClawHub release notes](./RELEASES.md)
 
 ## Project Pitch
 
@@ -12,6 +24,15 @@ This repository maintains a small, public-safe skill collection for local AI
 coordination. It combines reusable workflow templates, clear boundary docs,
 and ClawHub-published skills so the public repo can serve both as a reference
 implementation and as a practical starting point for new workflows.
+
+## Snapshot
+
+| Area | What you get |
+|---|---|
+| Skills | Public-safe OpenClaw skills for homework, tasks, practice sessions, and Mac deployment |
+| Publishing | GitHub-first repo flow with ClawHub-ready skill packaging |
+| Operations | Feishu coordination templates, sync rules, and publishing checklists |
+| Goal | Reusable local AI workflow patterns without exposing private runtime state |
 
 ## Application Summary
 
@@ -24,6 +45,7 @@ At a glance:
 - `daily-task-checkin`: simple task intake and reminder coordination
 - `practice-session-checkin`: structured practice and follow-up coordination
 - `mac-multi-instance-deployment`: generic Mac deployment and boundary setup
+- public-safe Feishu routing and structured ops message templates
 
 Together, they show a reusable pattern for public-safe workflow templates that
 can be published, installed, and adapted without exposing private runtime state.
@@ -33,6 +55,7 @@ can be published, installed, and adapted without exposing private runtime state.
 - public-safe local AI workflow templates
 - OpenClaw-style multi-role coordination
 - generic Mac multi-instance deployment layouts
+- public-safe Feishu routing and message structure patterns
 - reusable skills for family, task, and reminder workflows
 
 ## Who this is for
@@ -72,61 +95,31 @@ Current focus areas include:
 - daily task check-ins
 - practice session reminders
 - Mac multi-instance deployment
+- public-safe Feishu collaboration and routing templates
 - confirmation-based task flows
 - completion tracking and follow-up
 
 ## Included Skills
 
-### 1. family-homework-pomodoro / 家庭作业番茄执行助手
+| Skill | Summary | ClawHub | Path |
+|---|---|---|---|
+| `family-homework-pomodoro` | Parent-confirmed homework intake, Pomodoro execution, nightly completion checks, and reward approval | `1.0.1` | [`skills/family-homework-pomodoro/`](./skills/family-homework-pomodoro/) |
+| `daily-task-checkin` | Lightweight task intake, reminders, completion confirmation, and follow-up coordination | `1.0.2` | [`skills/daily-task-checkin/`](./skills/daily-task-checkin/) |
+| `practice-session-checkin` | Structured practice intake, start confirmation, reminder flow, and follow-up tracking | `1.0.1` | [`skills/practice-session-checkin/`](./skills/practice-session-checkin/) |
+| `mac-multi-instance-deployment` | Generic Mac workspace setup, boundary docs, quickstart examples, and deployment validation | `1.0.4` | [`skills/mac-multi-instance-deployment/`](./skills/mac-multi-instance-deployment/) |
 
-A parent-confirmed homework workflow skill for same-day homework intake,
-Pomodoro-based execution, nightly completion checks, and reward approval.
+### Featured Entry Point
 
-- Path: `skills/family-homework-pomodoro/`
-- Published on ClawHub: `family-homework-pomodoro@1.0.1`
-- Use cases:
-  - family homework coordination
-  - parent-approved homework reminders
-  - simple child study execution loops
+[`daily-task-checkin`](./skills/daily-task-checkin/README.md) is the broadest
+starting point in this collection. It is the easiest skill to adapt when you
+want a public-safe workflow for reminders, check-ins, and lightweight local
+coordination.
 
-### 2. daily-task-checkin / 日常任务打卡助手
+### Deployment Companion
 
-A reusable daily task coordination skill for task intake, reminder flow,
-completion confirmation, and lightweight follow-up.
-
-Featured as the broadest entry point in this collection.
-
-- Path: `skills/daily-task-checkin/`
-- Published on ClawHub: `daily-task-checkin@1.0.2`
-- Use cases:
-  - daily to-do reminders
-  - family task tracking
-  - lightweight personal workflow check-ins
-
-### 3. practice-session-checkin / 专项练习打卡助手
-
-A structured practice coordination skill for task intake, start confirmation,
-reminder flow, completion checks, and unfinished-task follow-up.
-
-- Path: `skills/practice-session-checkin/`
-- Published on ClawHub: `practice-session-checkin@1.0.1`
-- Use cases:
-  - dance or sports practice reminders
-  - music practice check-ins
-  - speaking, reading, or other structured home practice sessions
-
-### 4. mac-multi-instance-deployment / Mac 多实例部署
-
-A generic Mac deployment skill for setting up, naming, and validating multiple
-local OpenClaw-style workspaces.
-
-- Path: `skills/mac-multi-instance-deployment/`
-- Published on ClawHub: `mac-multi-instance-deployment@1.0.4`
-- Use cases:
-  - generic Mac multi-instance workspace planning
-  - public-safe boundary and index docs
-  - sample config and packaging validation
-  - example-driven deployment walk-throughs
+[`mac-multi-instance-deployment`](./skills/mac-multi-instance-deployment/README.md)
+is the deployment-focused companion template. It gives this repository a
+practical setup layer, not just a documentation layer.
 
 ## Project Positioning
 
@@ -140,6 +133,7 @@ It focuses on reusable patterns such as:
 - reminder orchestration
 - completion checks
 - Mac multi-instance deployment
+- public-safe Feishu routing and structured message templates
 - approval-based follow-up
 - privacy-safe workflow design
 
@@ -148,13 +142,13 @@ It focuses on reusable patterns such as:
 Selected skills in this repository are also published to the OpenClaw
 community registry through ClawHub.
 
-The current featured skill is `daily-task-checkin`, because it is the most
-general-purpose reminder template and the easiest starting point for new
-users.
+Current public release highlights:
 
-The generic Mac multi-instance deployment skill is also published and serves
-as the repository's deployment-focused companion template with concrete
-example flows.
+- `daily-task-checkin` is the featured skill because it is the most
+  general-purpose reminder template and the easiest starting point for new users
+- `mac-multi-instance-deployment` is the deployment-focused companion template
+- GitHub remains the source of truth for repo structure, docs, and release flow
+- ClawHub is used for public skill distribution
 
 This repository will continue expanding with additional public-safe skill
 templates and documentation improvements.
