@@ -66,3 +66,5 @@ publishing copy, and application materials.
 - `51-project-registry-rule.md` for using a project registry instead of folder scanning
 - `52-no-global-scan-rule.md` for blocking main from scanning the home directory by default
 - `53-main-project-registry-command.md` for the registry-based daily-check command
+- `56-new-project-review-flow.md` for how main should review new projects
+- `57-new-project-review-report-template.md` for standard reporting after a new project review
