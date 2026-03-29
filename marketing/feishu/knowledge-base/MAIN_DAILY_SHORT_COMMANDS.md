@@ -2,10 +2,12 @@
 
 Use these short commands in the Feishu `main` chat window for routine work.
 
+In the formal hub group, these commands inherit the default project context.
+
 ## 1. 日常同步检查
 
 ```text
-请从 main 做一次日常同步检查。
+请从 main 做一次日常检查。
 ```
 
 含义：
@@ -16,7 +18,7 @@ Use these short commands in the Feishu `main` chat window for routine work.
 ## 2. 知识库同步
 
 ```text
-请从 main 同步 OpenClaw 开源项目知识库。
+请从 main 同步知识库。
 ```
 
 含义：
@@ -27,7 +29,7 @@ Use these short commands in the Feishu `main` chat window for routine work.
 ## 3. GitHub 项目处理
 
 ```text
-请从 main 处理这次 GitHub 项目工作。
+请从 main 处理这次 GitHub 工作。
 ```
 
 含义：
@@ -49,7 +51,7 @@ Use these short commands in the Feishu `main` chat window for routine work.
 ## 5. 周度复盘
 
 ```text
-请从 main 做一次本周项目复盘。
+请从 main 做一次周复盘。
 ```
 
 含义：
@@ -61,7 +63,7 @@ Use these short commands in the Feishu `main` chat window for routine work.
 ## 6. 今日哪些值得更新到 GitHub
 
 ```text
-请从 main 回看今天 openclaw-oss-starter 的工作，判断哪些值得更新到 GitHub。
+请从 main 看今天哪些值得更新 GitHub。
 ```
 
 含义：
@@ -75,4 +77,4 @@ Use these short commands in the Feishu `main` chat window for routine work.
 
 - 日常对话优先用短指令
 - 如有特殊要求，再在下一句补限制条件
-- 若未指定其他仓库，默认使用 `openclaw-oss-starter`
+- 在正式中枢群，默认使用 `openclaw-oss-starter`

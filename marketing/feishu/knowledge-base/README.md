@@ -56,3 +56,5 @@ publishing copy, and application materials.
 - `43-feishu-knowledge-base-sync-trigger-rules.md` for when Feishu KB should also be updated
 - `44-main-sync-scope-decision-field.md` for the standard sync-scope field in main reports
 - `45-daily-github-worthiness-review.md` for deciding what from today should reach GitHub
+- `46-official-group-default-context-rule.md` for default context inheritance in the formal hub group
+- `47-main-ultra-short-commands.md` for ultra-short commands that should work in the formal hub group

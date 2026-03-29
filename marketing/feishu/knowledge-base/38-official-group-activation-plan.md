@@ -18,6 +18,17 @@
 - 对外发布与营销协作
 - 发布复盘与执行回报
 
+## 默认上下文
+
+本群默认继承当前项目上下文：
+
+- 默认项目：`openclaw-oss-starter`
+- 默认 GitHub 仓库：`ztl970/openclaw-oss-starter`
+- 默认工作区：`/Users/ztl/Documents/New project`
+- 默认协作链：`main -> 小果 -> 果爸`
+
+因此在本群里，日常短口令不应再频繁要求补 repo 或路径。
+
 ## 成员角色
 
 ### 你
@@ -81,6 +92,7 @@
 - GitHub 项目处理
 - 新 skill 上线流程
 - 周度复盘
+- 极简短口令
 
 ## 推荐首批消息
 
