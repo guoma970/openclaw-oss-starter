@@ -70,3 +70,5 @@ publishing copy, and application materials.
 - `57-new-project-review-report-template.md` for standard reporting after a new project review
 - `58-main-handover-activation-message.md` for the formal handover message to main
 - `59-main-takeover-acceptance-criteria.md` for deciding whether main has truly taken over
+- `60-no-command-echo-rule.md` for preventing command-style chatter in the formal hub group
+- `61-no-undefined-role-rule.md` for keeping group routing limited to defined roles
