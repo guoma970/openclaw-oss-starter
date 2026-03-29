@@ -7,6 +7,8 @@ node_modules/
 dist/
 build/
 config/*.local.yaml
+assets/avatars/source-avatar.jpg
+assets/avatars/avatar-square-2080.jpg
 SKILL.md
 !skills/**/SKILL.md
 proactive-fix-20260323/
