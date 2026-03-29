@@ -1,5 +1,7 @@
 # openclaw-oss-starter
 
+![OpenClaw banner](./assets/github/profile-banner-1280.png)
+
 Public-safe OpenClaw skill templates for local AI coordination workflows.
 
 This repository focuses on structured task intake, confirmation logic,
