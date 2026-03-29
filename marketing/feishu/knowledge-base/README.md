@@ -51,3 +51,5 @@ publishing copy, and application materials.
 - `32-standard-group-message-templates.md` for reusable in-group structured message templates
 - `39-daily-work-handover-checklist.md` for daily-work takeover steps
 - `40-daily-work-boundary-matrix.md` for daily-work boundaries
+- `41-github-clawhub-update-rhythm.md` for the GitHub vs ClawHub update cadence
+- `42-main-github-clawhub-routing-command.md` for the standard main-side routing command
