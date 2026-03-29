@@ -6,6 +6,7 @@
 node_modules/
 dist/
 build/
+config/*.local.yaml
 SKILL.md
 !skills/**/SKILL.md
 proactive-fix-20260323/
