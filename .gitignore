@@ -7,8 +7,10 @@ node_modules/
 dist/
 build/
 config/*.local.yaml
+config/openclaw-feishu-group-routing.yaml
 assets/avatars/source-avatar.jpg
 assets/avatars/avatar-square-2080.jpg
+scripts/vertex/
 SKILL.md
 !skills/**/SKILL.md
 proactive-fix-20260323/
