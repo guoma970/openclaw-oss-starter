@@ -6,7 +6,11 @@ The format follows a lightweight keep-a-changelog style.
 
 ## [Unreleased]
 
-- Future work on workflow samples, packaging polish, and optional config expansion
+- Quota-aware switching now uses public-safe config variables for threshold,
+  target model, and agent list defaults
+- README and Feishu knowledge-base docs now foreground the public-safe
+  coordination pack and reusable ops message templates
+- Added the next patch release note to the validation and public-pack flows
 
 ## [0.1.6] - 2026-03-26
 

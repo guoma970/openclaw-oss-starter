@@ -17,6 +17,7 @@ required=(
   "releases/0.1.4.md"
   "releases/0.1.5.md"
   "releases/0.1.6.md"
+  "releases/0.1.7.md"
   "skills/family-homework-pomodoro/SKILL.md"
   "skills/family-homework-pomodoro/README.md"
   "skills/family-homework-pomodoro/agents/openai.yaml"

@@ -1,7 +1,20 @@
 # Feishu Knowledge Base Pack
 
 Ready-to-paste pages for a small Feishu knowledge base about project status,
-publishing copy, and application materials.
+publishing copy, application materials, and public-safe coordination docs.
+
+## Public-safe highlights
+
+- `22-public-safe-skill-rules.md`
+- `23-prepublish-checklist.md`
+- `30-public-pipeline-sequence.md`
+- `33-minimum-public-sync-actions.md`
+- `36-public-safe-ops-message-templates.md`
+- `41-github-clawhub-update-rhythm.md`
+- `43-feishu-knowledge-base-sync-trigger-rules.md`
+
+Project-specific routing maps, real group identifiers, and internal execution
+matrices should stay local or in a private knowledge base.
 
 ## Suggested pages
 
@@ -46,9 +59,6 @@ publishing copy, and application materials.
 - `34-ops-group-rule-publication-assessment.md` for ops-group rule publication decisions
 - `35-local-tools-and-private-script-assessment.md` for local tool publication assessment
 - `36-public-safe-ops-message-templates.md` for reusable public-safe message templates
-- `30-unified-ops-group-rules.md` for unified Feishu ops-group collaboration rules
-- `31-ops-group-applicability-matrix.md` for group ownership and applicability mapping
-- `32-standard-group-message-templates.md` for reusable in-group structured message templates
 - `39-daily-work-handover-checklist.md` for daily-work takeover steps
 - `40-daily-work-boundary-matrix.md` for daily-work boundaries
 - `41-github-clawhub-update-rhythm.md` for the GitHub vs ClawHub update cadence

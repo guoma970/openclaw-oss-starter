@@ -18,14 +18,16 @@ execution flows, and public-safe Feishu coordination templates.
 - [Examples](./examples/)
 - [Mac deployment](./skills/mac-multi-instance-deployment/README.md)
 - [Feishu knowledge base pack](./marketing/feishu/knowledge-base/README.md)
+- [Public-safe ops templates](./marketing/feishu/knowledge-base/36-public-safe-ops-message-templates.md)
 - [ClawHub release notes](./RELEASES.md)
 
 ## Project Pitch
 
 This repository maintains a small, public-safe skill collection for local AI
-coordination. It combines reusable workflow templates, clear boundary docs,
-and ClawHub-published skills so the public repo can serve both as a reference
-implementation and as a practical starting point for new workflows.
+coordination. It combines reusable workflow templates, clear boundary docs, a
+Feishu knowledge-base starter pack, and ClawHub-published skills so the public
+repo can serve both as a reference implementation and as a practical starting
+point for new workflows.
 
 ## Snapshot
 
@@ -33,7 +35,7 @@ implementation and as a practical starting point for new workflows.
 |---|---|
 | Skills | Public-safe OpenClaw skills for homework, tasks, practice sessions, and Mac deployment |
 | Publishing | GitHub-first repo flow with ClawHub-ready skill packaging |
-| Operations | Feishu coordination templates, sync rules, and publishing checklists |
+| Operations | Feishu knowledge-base starter pages, public-safe coordination templates, and publishing checklists |
 | Goal | Reusable local AI workflow patterns without exposing private runtime state |
 
 ## Application Summary
@@ -47,7 +49,7 @@ At a glance:
 - `daily-task-checkin`: simple task intake and reminder coordination
 - `practice-session-checkin`: structured practice and follow-up coordination
 - `mac-multi-instance-deployment`: generic Mac deployment and boundary setup
-- public-safe Feishu routing and structured ops message templates
+- public-safe Feishu coordination and structured ops message templates
 
 Together, they show a reusable pattern for public-safe workflow templates that
 can be published, installed, and adapted without exposing private runtime state.
@@ -57,7 +59,7 @@ can be published, installed, and adapted without exposing private runtime state.
 - public-safe local AI workflow templates
 - OpenClaw-style multi-role coordination
 - generic Mac multi-instance deployment layouts
-- public-safe Feishu routing and message structure patterns
+- public-safe Feishu coordination and message structure patterns
 - reusable skills for family, task, and reminder workflows
 
 ## Who this is for
@@ -76,6 +78,8 @@ can be published, installed, and adapted without exposing private runtime state.
 - `skills/mac-multi-instance-deployment/`: the generic Mac multi-instance deployment skill
 - `examples/`: a copyable minimal workflow example
 - `examples/pack_and_validate.sh`: a runnable example that validates and builds a public pack
+- `marketing/feishu/knowledge-base/README.md`: a public-safe Feishu knowledge-base starter pack
+- `marketing/feishu/knowledge-base/36-public-safe-ops-message-templates.md`: generic structured coordination templates
 - `INSTALL.md`: a short install and usage guide
 - `skills/`: public-safe skill examples
 
@@ -97,7 +101,7 @@ Current focus areas include:
 - daily task check-ins
 - practice session reminders
 - Mac multi-instance deployment
-- public-safe Feishu collaboration and routing templates
+- public-safe Feishu knowledge-base and structured coordination templates
 - confirmation-based task flows
 - completion tracking and follow-up
 
@@ -135,7 +139,7 @@ It focuses on reusable patterns such as:
 - reminder orchestration
 - completion checks
 - Mac multi-instance deployment
-- public-safe Feishu routing and structured message templates
+- public-safe Feishu coordination docs and structured message templates
 - approval-based follow-up
 - privacy-safe workflow design
 
@@ -170,7 +174,7 @@ and adapt for your own workflows.
 Why it matters:
 
 - it shows how to publish public-safe skills without exposing private runtime state
-- it demonstrates a reusable pattern for family, task, and deployment coordination workflows
+- it demonstrates a reusable pattern for family, task, deployment, and coordination workflows
 - it gives a concrete path from local OpenClaw templates to ClawHub publication
 
 If you want a tailored implementation, the most natural paid paths are:

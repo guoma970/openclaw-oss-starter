@@ -81,6 +81,7 @@ files=(
   "releases/0.1.4.md"
   "releases/0.1.5.md"
   "releases/0.1.6.md"
+  "releases/0.1.7.md"
 )
 
 if [[ "$mode" == "--list" ]]; then
