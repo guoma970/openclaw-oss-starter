@@ -20,14 +20,14 @@
 
 ## Current media targets
 
-- `oc_fec0f098074ffeaf9a55ed5d4f55d7b0`
-- `oc_8c6222d7f6ade3e47cf297015623b36d`
+- `<media-target-chat-id-1>`
+- `<media-target-chat-id-2>`
 
-Both are already present in the `media` account allowlist.
+Keep real target IDs in local routing or account allowlist files only.
 
 ## Ongoing use
 
 - Use the selected `media` group as the sync channel for future publishing updates.
 - Let `media` handle platforms that can be drafted or published through AI-assisted workflows.
-- Let the designated domestic operator (`果爸`) handle Xiaohongshu posting on the China-side account.
+- Let the designated domestic operator handle Xiaohongshu posting on the China-side account.
 - Keep project launch notes, release follow-ups, and publishing summaries in the same thread of work when possible.
