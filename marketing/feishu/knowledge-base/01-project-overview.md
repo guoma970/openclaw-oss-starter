@@ -37,6 +37,7 @@
 
 - GitHub 仓库已公开
 - 多个 skill 已发布到 ClawHub
+- `openclaw-vertex-credit-safe-setup@1.0.0` 已进入 ClawHub
 - 当前已经整理出面向 Feishu、小红书、X 和长文渠道的营销素材
 - 已补充一组适合继续沉淀到知识库的 public-safe 飞书协同模板
 
