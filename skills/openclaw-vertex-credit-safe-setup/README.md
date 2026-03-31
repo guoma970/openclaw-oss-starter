@@ -4,7 +4,7 @@ Public-safe OpenClaw skill for connecting a fresh local setup to Google Vertex
 AI with service-account JSON auth, one tiny verification request, and explicit
 billing checks.
 
-This skill is GitHub-first for now. It is not yet published on ClawHub.
+Published on ClawHub as `openclaw-vertex-credit-safe-setup@1.0.0`.
 
 ## What it does
 
@@ -78,7 +78,7 @@ Keep this skill public-safe:
 - fresh OpenClaw setup guidance
 - Google Vertex AI trial or credit-safe onboarding
 - public-safe deployment examples
-- GitHub-first setup documentation before broader registry release
+- GitHub and ClawHub-ready setup documentation for broader registry use
 
 ## Suggested quickstart
 

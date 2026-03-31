@@ -6,6 +6,8 @@ The format follows a lightweight keep-a-changelog style.
 
 ## [Unreleased]
 
+- Published `openclaw-vertex-credit-safe-setup@1.0.0` to ClawHub and synced the
+  public repo status
 - Expanded the Vertex setup skill with examples, customization guidance, and a
   first skill release note for ClawHub evaluation
 - Added a GitHub-first public-safe skill for credit-safe Google Vertex AI setup
