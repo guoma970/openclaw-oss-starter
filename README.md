@@ -18,7 +18,7 @@ execution flows, and public-safe Feishu coordination templates.
 - [Examples](./examples/)
 - [Mac deployment](./skills/mac-multi-instance-deployment/README.md)
 - [Feishu knowledge base pack](./marketing/feishu/knowledge-base/README.md)
-- [Public-safe ops templates](./marketing/feishu/knowledge-base/36-public-safe-ops-message-templates.md)
+- [Public-safe ops framework](./marketing/feishu/knowledge-base/36-public-safe-ops-message-templates.md)
 - [ClawHub release notes](./RELEASES.md)
 
 ## Project Pitch
@@ -79,7 +79,7 @@ can be published, installed, and adapted without exposing private runtime state.
 - `examples/`: a copyable minimal workflow example
 - `examples/pack_and_validate.sh`: a runnable example that validates and builds a public pack
 - `marketing/feishu/knowledge-base/README.md`: a public-safe Feishu knowledge-base starter pack
-- `marketing/feishu/knowledge-base/36-public-safe-ops-message-templates.md`: generic structured coordination templates
+- `marketing/feishu/knowledge-base/36-public-safe-ops-message-templates.md`: lightweight structured coordination framework
 - `INSTALL.md`: a short install and usage guide
 - `skills/`: public-safe skill examples
 

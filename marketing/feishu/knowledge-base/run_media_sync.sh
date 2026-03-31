@@ -30,7 +30,7 @@ ${PARENT_URL}
 - 09_后续待办与选题方向 <- ${ROOT_DIR}/09-next-steps-and-content-ideas.md
 - 10_链接总表 <- ${ROOT_DIR}/10-link-index.md
 - 11_对外简介速用版 <- ${ROOT_DIR}/11-short-intro-pack.md
-- 36_Public-safe运营消息模板 <- ${ROOT_DIR}/36-public-safe-ops-message-templates.md
+- 36_Public-safe运营消息框架 <- ${ROOT_DIR}/36-public-safe-ops-message-templates.md
 EOF
 )
 

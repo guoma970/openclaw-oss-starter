@@ -58,7 +58,7 @@ matrices should stay local or in a private knowledge base.
 - `33-minimum-public-sync-actions.md` for the smallest required public sync set
 - `34-ops-group-rule-publication-assessment.md` for ops-group rule publication decisions
 - `35-local-tools-and-private-script-assessment.md` for local tool publication assessment
-- `36-public-safe-ops-message-templates.md` for reusable public-safe message templates
+- `36-public-safe-ops-message-templates.md` for a lightweight public-safe coordination framework
 - `39-daily-work-handover-checklist.md` for daily-work takeover steps
 - `40-daily-work-boundary-matrix.md` for daily-work boundaries
 - `41-github-clawhub-update-rhythm.md` for the GitHub vs ClawHub update cadence

@@ -29,7 +29,7 @@
 ## 当前公开模板补充
 
 - `36-public-safe-ops-message-templates.md`
-- public-safe 飞书协同与结构化消息模板
+- public-safe 飞书协同与结构化消息框架
 
 ## 对外发布状态
 
