@@ -46,13 +46,21 @@ skills/
   openclaw-vertex-credit-safe-setup/
     SKILL.md
     README.md
+    CUSTOMIZATION.md
     PUBLISHING.md
     CHANGELOG.md
     agents/
       openai.yaml
+    examples/
+      README.md
+      quickstart.md
+      local-env-example.md
+      verification-example.md
     references/
       minimal-vertex-reference-config.md
       vertex-first-setup-checklist.md
+    releases/
+      1.0.0.md
 ```
 
 ## Safety boundaries
@@ -80,3 +88,9 @@ Keep this skill public-safe:
 3. merge the minimal model block into your local OpenClaw config
 4. run one tiny verification request
 5. check the `Vertex AI` billing line item before broader rollout
+
+## More links
+
+- [examples/README.md](./examples/README.md)
+- [CUSTOMIZATION.md](./CUSTOMIZATION.md)
+- [releases/1.0.0.md](./releases/1.0.0.md)
