@@ -4,7 +4,8 @@
 
 Built `openclaw-oss-starter` into a public-safe OpenClaw skill collection for
 local AI workflows, covering daily tasks, homework, practice-session follow-up,
-Mac multi-instance deployment, and reusable Feishu coordination templates.
+Mac multi-instance deployment, Google Vertex AI setup, and reusable Feishu
+coordination templates.
 
 GitHub:
 https://github.com/ztl970/openclaw-oss-starter
@@ -20,6 +21,7 @@ Current public skills include:
 - `family-homework-pomodoro`
 - `practice-session-checkin`
 - `mac-multi-instance-deployment`
+- `openclaw-vertex-credit-safe-setup`
 
 The direction is simple:
 
@@ -39,7 +41,7 @@ https://github.com/ztl970/openclaw-oss-starter
 
 ### Subtitle
 
-覆盖任务打卡、家庭作业、专项练习、Mac 多实例部署与飞书协同模板
+覆盖任务打卡、家庭作业、专项练习、Mac 多实例部署、Vertex AI 安全接入与飞书协同模板
 
 ### Short body
 

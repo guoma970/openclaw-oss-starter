@@ -20,6 +20,7 @@
 ### 社区发布
 
 - 多个 skill 已发布到 ClawHub
+- `openclaw-vertex-credit-safe-setup@1.0.0` 已补入公开分发链
 - 项目已经具备对外展示和社区分发能力
 
 ### 知识库沉淀
