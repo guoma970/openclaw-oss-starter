@@ -10,6 +10,9 @@ verification.
 - a human-readable `README.md`
 - a smallest-possible reference config with placeholders only
 - a checklist that emphasizes billing verification before wider rollout
+- a compact example pack
+- a customization guide
+- a first skill release note
 
 ## Positioning
 
@@ -23,7 +26,7 @@ Use this skill when you want a reusable public template for:
 
 - GitHub: yes
 - Feishu knowledge-base: yes, as a repository-facing summary update
-- ClawHub: not yet
+- ClawHub: ready for evaluation
 
-ClawHub can wait until the skill has broader examples or a more stable public
-release cadence.
+This skill now has the minimum packaging needed for a ClawHub release review,
+but publishing can still wait until you want a public registry entry.
