@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+
+- Sharpened the GitHub and ClawHub-facing copy around Google credits, Gemini
+  routing, and billing-path verification
+
 ## 1.0.0
 
 - Added the first public-safe Vertex AI setup skill structure

@@ -6,6 +6,16 @@ billing checks.
 
 Published on ClawHub as `openclaw-vertex-credit-safe-setup@1.0.0`.
 
+## Start here if you already have credits
+
+If you want the shortest safe path from Google Cloud credits to Gemini usage
+inside OpenClaw, keep it this simple:
+
+1. confirm which GCP project actually owns the credits
+2. keep auth on a dedicated local service-account JSON path
+3. route Gemini through `google-vertex/...`, not `google/...`
+4. run one tiny request and then check that billing lands under `Vertex AI`
+
 ## Why this skill exists
 
 Many users can access Google Cloud credits, but still miss the practical setup
@@ -52,7 +62,7 @@ Use this skill when you want a safer first pass for Vertex AI setup:
 4. run one tiny verification request
 5. check Google Cloud Billing before wider rollout
 
-## Why it exists
+## Common mistakes this skill helps prevent
 
 This skill is meant to reduce a few common setup mistakes:
 

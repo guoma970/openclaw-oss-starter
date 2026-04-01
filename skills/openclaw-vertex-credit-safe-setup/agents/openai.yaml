@@ -1,4 +1,4 @@
 spec_version: "1"
 display_name: "Vertex Credit-Safe Setup"
-short_description: "Safely configure OpenClaw Vertex AI with minimal-cost verification"
-default_prompt: "Use $openclaw-vertex-credit-safe-setup to configure Google Vertex AI for a fresh OpenClaw setup, prefer service-account JSON auth, keep models on google-vertex routes, use the minimal public-safe starter template when the user wants a reference config, run one tiny verification request, and explain how to verify billing and credits."
+short_description: "Use Google Cloud credits with OpenClaw by routing Gemini through Vertex AI safely"
+default_prompt: "Use $openclaw-vertex-credit-safe-setup to turn Google Cloud credits into a correct OpenClaw Vertex AI setup, prefer service-account JSON auth, keep models on google-vertex routes, use the minimal public-safe starter template when the user wants a reference config, run one tiny verification request, and explain how to verify billing and credits before wider rollout."

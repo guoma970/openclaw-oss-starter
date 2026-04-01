@@ -114,7 +114,7 @@ Current focus areas include:
 | `daily-task-checkin` | Lightweight task intake, reminders, completion confirmation, and follow-up coordination | `1.0.2` | [`skills/daily-task-checkin/`](./skills/daily-task-checkin/) |
 | `practice-session-checkin` | Structured practice intake, start confirmation, reminder flow, and follow-up tracking | `1.0.1` | [`skills/practice-session-checkin/`](./skills/practice-session-checkin/) |
 | `mac-multi-instance-deployment` | Generic Mac workspace setup, boundary docs, quickstart examples, and deployment validation | `1.0.4` | [`skills/mac-multi-instance-deployment/`](./skills/mac-multi-instance-deployment/) |
-| `openclaw-vertex-credit-safe-setup` | Google Vertex AI setup with service-account JSON, tiny verification, and billing checks | `1.0.0` | [`skills/openclaw-vertex-credit-safe-setup/`](./skills/openclaw-vertex-credit-safe-setup/) |
+| `openclaw-vertex-credit-safe-setup` | Use Google Cloud credits with Gemini through Vertex AI, tiny verification, and billing checks | `1.0.0` | [`skills/openclaw-vertex-credit-safe-setup/`](./skills/openclaw-vertex-credit-safe-setup/) |
 
 ### Featured Entry Point
 
@@ -137,6 +137,12 @@ public-safe path with local-only credentials, one small verification request,
 and explicit billing checks so users with Google Cloud credits can configure
 OpenClaw to use Gemini through Vertex AI more safely, instead of leaving direct
 Gemini API charges behind when routing is wrong.
+
+If that is your specific use case, start there first:
+
+- confirm which Google Cloud project actually owns the credits
+- keep Gemini on the `google-vertex/...` route
+- run one tiny test and verify the `Vertex AI` billing line item before wider use
 
 ## Project Positioning
 

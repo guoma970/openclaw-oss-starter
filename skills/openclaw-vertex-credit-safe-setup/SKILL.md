@@ -1,12 +1,12 @@
 ---
 name: openclaw-vertex-credit-safe-setup
-description: Safely configure Google Vertex AI for a fresh OpenClaw setup using a Google Cloud project, service-account JSON auth, minimal-cost verification, and explicit billing checks to avoid accidental Gemini API or extra spend.
+description: Use Google Cloud credits with OpenClaw more safely by routing Gemini through Vertex AI, verifying one tiny request, and checking billing before accidental Gemini API spend shows up.
 version: 1.0.0
 ---
 
 # OpenClaw Vertex Credit-Safe Setup
 
-Use this skill when a user wants to configure Google Vertex AI for OpenClaw from scratch and wants to minimize billing mistakes.
+Use this skill when a user wants to turn Google Cloud credits into a correct OpenClaw -> Vertex AI -> Gemini setup and wants to minimize billing mistakes.
 
 ## Goal
 
