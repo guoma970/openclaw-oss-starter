@@ -4,6 +4,10 @@
 skill for connecting OpenClaw to Google Vertex AI with minimal-cost
 verification.
 
+It exists for a practical reason: users may already have Google Cloud credits,
+but still need a reliable way to point OpenClaw at Vertex AI so Gemini usage
+lands on the intended billing path.
+
 ## What this addition provides
 
 - a setup-focused `SKILL.md`
@@ -21,6 +25,7 @@ Use this skill when you want a reusable public template for:
 - first-time Vertex AI setup
 - credit-safe or trial-safe Google Cloud onboarding
 - keeping OpenClaw model routing on `google-vertex/...`
+- turning Google Cloud credits into a correct OpenClaw + Gemini setup path
 
 ## Current release scope
 

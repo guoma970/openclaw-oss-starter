@@ -6,6 +6,37 @@ billing checks.
 
 Published on ClawHub as `openclaw-vertex-credit-safe-setup@1.0.0`.
 
+## Why this skill exists
+
+Many users can access Google Cloud credits, but still miss the practical setup
+step that makes those credits useful inside OpenClaw.
+
+Typical cases include:
+
+- Google for Startups Cloud Program credits
+- Google Cloud / Vertex AI new-customer credits
+- other Google Cloud promotional credit windows tied to the correct billing path
+
+The problem is not only "having credits." The real problem is making sure
+OpenClaw is configured so Gemini usage goes through the `google-vertex/...`
+route instead of an unintended direct Gemini API path.
+
+This skill exists to solve that gap:
+
+- configure OpenClaw to use Vertex AI on purpose
+- keep auth tied to the intended Google Cloud project
+- run one tiny verification request before wider rollout
+- help the user confirm that billing lands under `Vertex AI`
+
+The goal is not to claim "Gemini is always free." The goal is to help users use
+available Google Cloud credits first, avoid wrong-path setup, and minimize
+out-of-pocket cost while credits are still active.
+
+For current program details, always check the official Google pages:
+
+- Google for Startups Cloud Program: https://cloud.google.com/startup
+- Vertex AI: https://cloud.google.com/vertex-ai
+
 ## What it does
 
 Use this skill when you want a safer first pass for Vertex AI setup:
@@ -24,6 +55,12 @@ This skill is meant to reduce a few common setup mistakes:
 - reusing unclear old auth state
 - spreading Google model changes across many agents before a tiny test
 - treating “request succeeded” as proof that billing is correct
+
+In practice, it is also the bridge between:
+
+- Google credits that the user already has
+- OpenClaw model routing
+- Gemini usage inside OpenClaw under the intended Vertex billing path
 
 ## Minimal local inputs
 
@@ -88,6 +125,18 @@ Keep this skill public-safe:
 3. merge the minimal model block into your local OpenClaw config
 4. run one tiny verification request
 5. check the `Vertex AI` billing line item before broader rollout
+
+## What success looks like
+
+The intended end state is simple:
+
+- the user can call Gemini models inside OpenClaw
+- the configured route is `google-vertex/...`
+- billing lands on the intended Google Cloud project
+- eligible Google Cloud credits are used first when available
+
+That is why this skill focuses on billing correctness and not only on whether a
+request succeeds.
 
 ## More links
 

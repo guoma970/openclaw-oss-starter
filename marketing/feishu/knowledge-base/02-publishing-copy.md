@@ -7,6 +7,10 @@ local AI workflows, covering daily tasks, homework, practice-session follow-up,
 Mac multi-instance deployment, Google Vertex AI setup, and reusable Feishu
 coordination templates.
 
+The Vertex setup skill is there for a concrete reason: many users may already
+have Google Cloud credits, but still need a clear way to configure OpenClaw so
+Gemini usage lands on the Vertex AI billing path instead of a wrong setup path.
+
 GitHub:
 https://github.com/ztl970/openclaw-oss-starter
 
@@ -29,6 +33,7 @@ The direction is simple:
 - make reusable workflow templates public
 - publish practical skills to ClawHub
 - add public-safe Feishu coordination templates when they can be abstracted safely
+- help users turn available Google Cloud credits into a correct OpenClaw setup path
 
 GitHub:
 https://github.com/ztl970/openclaw-oss-starter
