@@ -41,8 +41,8 @@ OpenClaw 配错路由，credits 也救不了错误计费
 
 ## 现成封面文件
 
-- 可编辑源文件：`assets/2026-04-01-vertex-credit-cover.svg`
-- 直接发图版本：`assets/2026-04-01-vertex-credit-cover.png`
+- 可编辑源文件：`../../assets/xiaohongshu/2026-04-01-vertex-credit-cover.svg`
+- 直接发图版本：`../../assets/xiaohongshu/2026-04-01-vertex-credit-cover.png`
 
 ## 正文短版
 
