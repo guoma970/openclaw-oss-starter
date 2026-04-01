@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 1.0.1
 
 - Sharpened the GitHub and ClawHub-facing copy around Google credits, Gemini
   routing, and billing-path verification

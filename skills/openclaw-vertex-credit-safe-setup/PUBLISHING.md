@@ -34,7 +34,7 @@ Use this skill when you want a reusable public template for:
 
 - GitHub: yes
 - Feishu knowledge-base: yes, as a repository-facing summary update
-- ClawHub: published as `openclaw-vertex-credit-safe-setup@1.0.0`
+- ClawHub: published as `openclaw-vertex-credit-safe-setup@1.0.1`
 
 This skill now has the minimum packaging needed for a stable public registry
 entry and has been published on ClawHub.

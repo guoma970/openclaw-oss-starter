@@ -6,6 +6,8 @@ The format follows a lightweight keep-a-changelog style.
 
 ## [Unreleased]
 
+- Published `openclaw-vertex-credit-safe-setup@1.0.1` to ClawHub with sharper
+  Google credits, Gemini routing, and billing-path entry copy
 - Sharpened the Vertex skill entry points and registry-facing metadata so the
   Google credits, Gemini routing, and billing-path story is easier to follow
 - Published `openclaw-vertex-credit-safe-setup@1.0.0` to ClawHub and synced the
