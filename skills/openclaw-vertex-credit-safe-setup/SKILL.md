@@ -1,7 +1,7 @@
 ---
 name: openclaw-vertex-credit-safe-setup
 description: Use Google Cloud credits with OpenClaw more safely by routing Gemini through Vertex AI, verifying one tiny request, and checking billing before accidental Gemini API spend shows up.
-version: 1.0.1
+version: 1.0.2
 ---
 
 # OpenClaw Vertex Credit-Safe Setup

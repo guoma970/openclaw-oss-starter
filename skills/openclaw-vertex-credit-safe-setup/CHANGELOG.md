@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.2
+
+- republished the complete repo skill bundle after verifying that the previous
+  ClawHub patch had captured a stale workspace copy instead of the full repo version
+- kept the Google credits, Gemini routing, and billing-path entry copy improvements
+
 ## 1.0.1
 
 - Sharpened the GitHub and ClawHub-facing copy around Google credits, Gemini
