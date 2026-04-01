@@ -135,7 +135,8 @@ practical setup layer, not just a documentation layer.
 is the cloud-setup companion template. It keeps first-time Vertex AI setup on a
 public-safe path with local-only credentials, one small verification request,
 and explicit billing checks so users with Google Cloud credits can configure
-OpenClaw to use Gemini through Vertex AI more safely.
+OpenClaw to use Gemini through Vertex AI more safely, instead of leaving direct
+Gemini API charges behind when routing is wrong.
 
 ## Project Positioning
 
