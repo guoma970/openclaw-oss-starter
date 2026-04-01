@@ -8,6 +8,9 @@ It exists for a practical reason: users may already have Google Cloud credits,
 but still need a reliable way to point OpenClaw at Vertex AI so Gemini usage
 lands on the intended billing path.
 
+That distinction matters because credits can offset Vertex AI usage while
+unexpected Gemini API traffic still becomes real net spend if routing is wrong.
+
 ## What this addition provides
 
 - a setup-focused `SKILL.md`

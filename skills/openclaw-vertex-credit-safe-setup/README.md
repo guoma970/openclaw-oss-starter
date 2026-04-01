@@ -32,6 +32,11 @@ The goal is not to claim "Gemini is always free." The goal is to help users use
 available Google Cloud credits first, avoid wrong-path setup, and minimize
 out-of-pocket cost while credits are still active.
 
+That billing-path check matters in practice. A billing review can show Vertex AI
+usage mostly offset by credits while unintended direct Gemini API usage still
+appears as the only real net charge. That is exactly the kind of mistake this
+skill is meant to prevent.
+
 For current program details, always check the official Google pages:
 
 - Google for Startups Cloud Program: https://cloud.google.com/startup
@@ -61,6 +66,11 @@ In practice, it is also the bridge between:
 - Google credits that the user already has
 - OpenClaw model routing
 - Gemini usage inside OpenClaw under the intended Vertex billing path
+
+It also helps teams avoid a common false positive: the request works, but the
+billing split shows spend in the wrong place. For example, billing may still
+show a local-currency net charge, such as JPY, when traffic leaked onto the
+Gemini API path instead of staying on Vertex AI.
 
 ## Minimal local inputs
 
