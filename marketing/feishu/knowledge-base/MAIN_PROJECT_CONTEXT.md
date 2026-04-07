@@ -15,11 +15,16 @@ through `main`.
 - ClawHub skills published from this repository
 - Feishu knowledge-base parent:
   `https://www.feishu.cn/wiki/CLJFwc9l8ik7IRkpi8bcPgAMn6U`
+- default public-sync executor: `media`
+- Feishu bot name used for that executor: `小果`
 
 ## Operating rule
 
 Unless the user explicitly names another repository, `main` should assume that
 GitHub project work refers to this repository and this workspace.
+
+Unless the user explicitly names another executor, Feishu knowledge-base sync,
+public-facing copy sync, and release-facing sync should route to `media`.
 
 ## When main should still ask
 

@@ -8,6 +8,7 @@ Codex work.
 - `main`: task intake, classification, dispatch, final summary
 - `media`: local execution instance
 - `小果`: Feishu bot name used by `media`
+- for this project, default public-sync path is `main -> media / 小果`
 
 ## Default repository context
 
@@ -68,6 +69,9 @@ Typical language:
 
 If a code task also needs public sync, let `main` do the code work first, then
 dispatch the sync portion to `media`.
+
+Do not reroute this project's Feishu sync to another instance unless the user
+explicitly asks for a different executor.
 
 ### 4. Combined tasks
 
