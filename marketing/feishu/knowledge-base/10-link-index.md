@@ -3,7 +3,7 @@
 ## 项目主链接
 
 - GitHub 仓库：
-  https://github.com/ztl970/openclaw-oss-starter
+  https://github.com/guoma970/openclaw-oss-starter
 
 ## 当前知识库目录
 

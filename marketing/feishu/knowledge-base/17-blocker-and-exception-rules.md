@@ -15,7 +15,7 @@
 当用户没有明确指定其他项目时，默认使用：
 
 - 本地仓库：`/Users/ztl/Documents/New project`
-- GitHub 仓库：`ztl970/openclaw-oss-starter`
+- GitHub 仓库：`guoma970/openclaw-oss-starter`
 - 分支：`main`
 
 只要任务与这个项目明显相关，就不应因为“未给 repo”而直接 blocker。

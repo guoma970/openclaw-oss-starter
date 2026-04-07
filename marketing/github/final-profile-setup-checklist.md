@@ -2,7 +2,7 @@
 
 ## Already done
 
-- profile repository created: `ztl970/ztl970`
+- profile repository created: `guoma970/guoma970`
 - profile README pushed
 - main public repository banner added
 - wide and narrow banner assets generated

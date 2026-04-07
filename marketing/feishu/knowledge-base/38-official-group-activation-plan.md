@@ -23,7 +23,7 @@
 本群默认继承当前项目上下文：
 
 - 默认项目：`openclaw-oss-starter`
-- 默认 GitHub 仓库：`ztl970/openclaw-oss-starter`
+- 默认 GitHub 仓库：`guoma970/openclaw-oss-starter`
 - 默认工作区：`/Users/ztl/Documents/New project`
 - 默认协作链：`main -> 小果 -> 果爸`
 

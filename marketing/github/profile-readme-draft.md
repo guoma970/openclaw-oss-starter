@@ -1,13 +1,13 @@
 # GitHub Profile README Draft
 
-Use this for the future `ztl970/ztl970` profile repository.
+Use this for the `guoma970/guoma970` profile repository.
 
 ```md
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ztl970/openclaw-oss-starter/main/assets/github/profile-banner-1280.png" alt="OpenClaw profile banner" />
+  <img src="https://raw.githubusercontent.com/guoma970/openclaw-oss-starter/main/assets/github/profile-banner-1280.png" alt="OpenClaw profile banner" />
 </p>
 
-# Hi, I'm ztl970
+# Hi, I'm guoma970
 
 Building public-safe OpenClaw workflow templates across reusable skill publishing and workflow operations.
 
@@ -20,7 +20,7 @@ Building public-safe OpenClaw workflow templates across reusable skill publishin
 
 ## Featured project
 
-### [openclaw-oss-starter](https://github.com/ztl970/openclaw-oss-starter)
+### [openclaw-oss-starter](https://github.com/guoma970/openclaw-oss-starter)
 
 Public-safe OpenClaw skill templates for local AI coordination workflows.
 

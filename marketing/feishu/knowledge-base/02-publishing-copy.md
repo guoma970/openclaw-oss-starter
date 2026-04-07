@@ -12,7 +12,7 @@ have Google Cloud credits, but still need a clear way to configure OpenClaw so
 Gemini usage lands on the Vertex AI billing path instead of a wrong setup path.
 
 GitHub:
-https://github.com/ztl970/openclaw-oss-starter
+https://github.com/guoma970/openclaw-oss-starter
 
 ## Feishu 首发标准版
 
@@ -36,7 +36,7 @@ The direction is simple:
 - help users turn available Google Cloud credits into a correct OpenClaw setup path
 
 GitHub:
-https://github.com/ztl970/openclaw-oss-starter
+https://github.com/guoma970/openclaw-oss-starter
 
 ## 海报/卡片短文案
 

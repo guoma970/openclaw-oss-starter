@@ -9,7 +9,7 @@ All GitHub project work should enter through `main` first.
 Default assumption:
 
 - local repository path: `/Users/ztl/Documents/New project`
-- GitHub repository: `ztl970/openclaw-oss-starter`
+- GitHub repository: `guoma970/openclaw-oss-starter`
 
 If the user does not name another repository, `main` should use this project
 context by default instead of blocking for missing repo identity.

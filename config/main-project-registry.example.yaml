@@ -4,7 +4,7 @@ projects:
   - key: openclaw-oss-starter
     title: OpenClaw OSS Starter
     local_path: /Users/ztl/Documents/New project
-    github_repo: ztl970/openclaw-oss-starter
+    github_repo: guoma970/openclaw-oss-starter
     sensitivity: public
     public_sync:
       github: true

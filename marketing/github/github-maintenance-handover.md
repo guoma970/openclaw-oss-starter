@@ -6,7 +6,7 @@
 
 ## 适用仓库
 
-- 仓库名：`ztl970/openclaw-oss-starter`
+- 仓库名：`guoma970/openclaw-oss-starter`
 - 本地路径：`/Users/ztl/Documents/New project`
 - 默认分支：`main`
 
@@ -63,7 +63,7 @@
 ## 当前公开面状态
 
 - GitHub 个人 `Bio` 已统一
-- GitHub profile repo 已建立：`ztl970/ztl970`
+- GitHub profile repo 已建立：`guoma970/guoma970`
 - 主仓库 description 已统一
 - ClawHub `Bio` 已统一
 - 主仓库首页、banner、application pack 已整理

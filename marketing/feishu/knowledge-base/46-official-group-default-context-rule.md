@@ -14,7 +14,7 @@
 
 - 项目：`openclaw-oss-starter`
 - 本地工作区：`/Users/ztl/Documents/New project`
-- GitHub 仓库：`ztl970/openclaw-oss-starter`
+- GitHub 仓库：`guoma970/openclaw-oss-starter`
 - 公开链路：GitHub / ClawHub / 飞书知识库
 
 ## 默认协作对象
