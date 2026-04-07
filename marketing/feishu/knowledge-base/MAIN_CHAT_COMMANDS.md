@@ -12,7 +12,7 @@ chat window.
 Default project context:
 
 - local repository path: `/Users/ztl/Documents/New project`
-- GitHub repository: `ztl970/openclaw-oss-starter`
+- GitHub repository: `guoma970/openclaw-oss-starter`
 - if no other repo is named, `main` should use this one
 
 ## Knowledge-base sync

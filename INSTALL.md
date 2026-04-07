@@ -12,7 +12,7 @@ few local checks.
 ## Steps
 
 ```bash
-git clone https://github.com/ztl970/openclaw-oss-starter.git
+git clone https://github.com/guoma970/openclaw-oss-starter.git
 cd openclaw-oss-starter
 chmod +x cron/codex_quota_autoswitch.sh generate_public_pack.sh validate_repo.sh
 ./validate_repo.sh

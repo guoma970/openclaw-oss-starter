@@ -14,7 +14,7 @@ Codex work.
 Unless the user explicitly names another repository, `main` should assume:
 
 - local repository path: `/Users/ztl/Documents/New project`
-- GitHub repository: `ztl970/openclaw-oss-starter`
+- GitHub repository: `guoma970/openclaw-oss-starter`
 - default branch: `main`
 
 ## Routing classes

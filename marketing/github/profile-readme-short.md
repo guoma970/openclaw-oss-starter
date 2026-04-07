@@ -1,13 +1,13 @@
 # GitHub Profile README Short Variant
 
 ```md
-# Hi, I'm ztl970
+# Hi, I'm guoma970
 
 Building public-safe OpenClaw workflow templates across reusable skill publishing and workflow operations.
 
 ## Featured repo
 
-- [openclaw-oss-starter](https://github.com/ztl970/openclaw-oss-starter)
+- [openclaw-oss-starter](https://github.com/guoma970/openclaw-oss-starter)
 
 ## Current themes
 

@@ -6,12 +6,12 @@ through `main`.
 ## Default project
 
 - local repository path: `/Users/ztl/Documents/New project`
-- GitHub repository: `ztl970/openclaw-oss-starter`
+- GitHub repository: `guoma970/openclaw-oss-starter`
 - default branch: `main`
 
 ## Public sync targets
 
-- GitHub repository: `ztl970/openclaw-oss-starter`
+- GitHub repository: `guoma970/openclaw-oss-starter`
 - ClawHub skills published from this repository
 - Feishu knowledge-base parent:
   `https://www.feishu.cn/wiki/CLJFwc9l8ik7IRkpi8bcPgAMn6U`
