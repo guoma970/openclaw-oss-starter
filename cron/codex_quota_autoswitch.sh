@@ -30,7 +30,7 @@ DEFAULT_THRESHOLD="${OPENCLAW_CODEX_THRESHOLD:-20}"
 THRESHOLD="${1:-$DEFAULT_THRESHOLD}"
 LOG_FILE="${HOME}/.openclaw/logs/codex-quota-autoswitch.log"
 TS="$(date '+%Y-%m-%d %H:%M:%S')"
-TARGET="${OPENCLAW_QUOTA_SWITCH_TARGET:-minimax-portal/MiniMax-M2.5}"
+TARGET="${OPENCLAW_QUOTA_SWITCH_TARGET:-openai-codex/gpt-5.3-codex}"
 AGENTS_RAW="${OPENCLAW_QUOTA_SWITCH_AGENTS:-family media business}"
 
 agent_ids=(${=AGENTS_RAW})
