@@ -6,6 +6,14 @@ The format follows a lightweight keep-a-changelog style.
 
 ## [Unreleased]
 
+## [0.1.10] - 2026-04-09
+
+- Added the initial public-safe release pack for `repo-growth-operator`
+- Added publishing-group handoff assets and LinkedIn follow-up copy under `marketing/media/`
+- Clarified default Feishu sync executor wording in the knowledge-base pack
+- Synced public GitHub identity references from `ztl970` to `guoma970`
+- Updated the public quota-switch default target to `openai-codex/gpt-5.3-codex`
+
 ## [0.1.9] - 2026-04-01
 
 - Published `openclaw-vertex-credit-safe-setup@1.0.2` to ClawHub after verifying
