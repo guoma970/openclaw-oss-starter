@@ -82,3 +82,4 @@ matrices should stay local or in a private knowledge base.
 - `59-main-takeover-acceptance-criteria.md` for deciding whether main has truly taken over
 - `60-no-command-echo-rule.md` for preventing command-style chatter in the formal hub group
 - `61-no-undefined-role-rule.md` for keeping group routing limited to defined roles
+- `62-github-collab-group-daily-review-and-upload-rule.md` for the daily review and upload rules in the GitHub collaboration group
