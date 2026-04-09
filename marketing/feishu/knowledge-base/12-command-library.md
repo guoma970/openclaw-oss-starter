@@ -14,7 +14,7 @@
 
 - GitHub 项目相关工作，统一先从 `main` 入口对接
 - 默认项目上下文：
-  - 本地仓库：`/Users/ztl/Documents/New project`
+  - 本地仓库：`/Users/ztl/.openclaw/workspace-main/openclaw-oss-starter`
   - GitHub 仓库：`guoma970/openclaw-oss-starter`
 - `main` 负责判断、分流、回报
 - `media` 负责公开同步执行

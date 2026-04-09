@@ -15,7 +15,7 @@ The script defaults to:
 ## Command
 
 ```bash
-bash /Users/ztl/Documents/New\ project/marketing/feishu/knowledge-base/run_media_sync.sh
+bash /Users/ztl/.openclaw/workspace-main/openclaw-oss-starter/marketing/feishu/knowledge-base/run_media_sync.sh
 ```
 
 ## Optional target override
@@ -23,7 +23,7 @@ bash /Users/ztl/Documents/New\ project/marketing/feishu/knowledge-base/run_media
 If the parent directory changes, pass a different parent URL:
 
 ```bash
-bash /Users/ztl/Documents/New\ project/marketing/feishu/knowledge-base/run_media_sync.sh "https://www.feishu.cn/wiki/your-parent-url"
+bash /Users/ztl/.openclaw/workspace-main/openclaw-oss-starter/marketing/feishu/knowledge-base/run_media_sync.sh "https://www.feishu.cn/wiki/your-parent-url"
 ```
 
 ## Expected behavior

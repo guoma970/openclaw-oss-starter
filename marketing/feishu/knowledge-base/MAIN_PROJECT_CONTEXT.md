@@ -5,7 +5,7 @@ through `main`.
 
 ## Default project
 
-- local repository path: `/Users/ztl/Documents/New project`
+- local repository path: `/Users/ztl/.openclaw/workspace-main/openclaw-oss-starter`
 - GitHub repository: `guoma970/openclaw-oss-starter`
 - default branch: `main`
 

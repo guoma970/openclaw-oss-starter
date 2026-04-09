@@ -14,7 +14,7 @@
 
 当用户没有明确指定其他项目时，默认使用：
 
-- 本地仓库：`/Users/ztl/Documents/New project`
+- 本地仓库：`/Users/ztl/.openclaw/workspace-main/openclaw-oss-starter`
 - GitHub 仓库：`guoma970/openclaw-oss-starter`
 - 分支：`main`
 

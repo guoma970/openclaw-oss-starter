@@ -20,7 +20,7 @@
 ## 二、默认项目上下文
 
 - 默认本地仓库路径已确认：
-  - `/Users/ztl/Documents/New project`
+  - `/Users/ztl/.openclaw/workspace-main/openclaw-oss-starter`
 - 默认 GitHub 仓库已确认：
   - `guoma970/openclaw-oss-starter`
 - 默认分支已确认：

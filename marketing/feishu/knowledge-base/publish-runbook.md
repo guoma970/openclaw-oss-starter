@@ -13,18 +13,18 @@ automatic execution.
 
 ## Required target fields
 
-Before execution, fill:
+Before execution, confirm:
 
 - the root target and directory targets in
-  [targets.template.yaml](/Users/ztl/Documents/New project/marketing/feishu/knowledge-base/targets.template.yaml)
+  [targets.yaml](/Users/ztl/.openclaw/workspace-main/openclaw-oss-starter/marketing/feishu/knowledge-base/targets.yaml)
 - and confirm the routing file in
-  [directory-rules.yaml](/Users/ztl/Documents/New project/marketing/feishu/knowledge-base/directory-rules.yaml)
+  [directory-rules.yaml](/Users/ztl/.openclaw/workspace-main/openclaw-oss-starter/marketing/feishu/knowledge-base/directory-rules.yaml)
 matches those directory keys.
 
 ## Routing rule
 
 Publishing must follow
-[directory-rules.yaml](/Users/ztl/Documents/New project/marketing/feishu/knowledge-base/directory-rules.yaml).
+[directory-rules.yaml](/Users/ztl/.openclaw/workspace-main/openclaw-oss-starter/marketing/feishu/knowledge-base/directory-rules.yaml).
 
 `media` should not guess where a page goes. Each page key must map to one
 configured directory target before publishing.
@@ -32,8 +32,8 @@ configured directory target before publishing.
 ## One-file target input
 
 Use
-[targets.template.yaml](/Users/ztl/Documents/New project/marketing/feishu/knowledge-base/targets.template.yaml)
-as the single place to fill Feishu targets before execution.
+[targets.yaml](/Users/ztl/.openclaw/workspace-main/openclaw-oss-starter/marketing/feishu/knowledge-base/targets.yaml)
+as the single place to read the current Feishu targets before execution.
 
 ## Publish order
 

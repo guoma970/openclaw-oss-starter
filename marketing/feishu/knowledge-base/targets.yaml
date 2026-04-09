@@ -1,0 +1,16 @@
+version: 1
+executor: media
+channel: feishu
+root_target:
+  wiki_space: "7617444927789616317"
+  wiki_node: "CLJFwc9l8ik7IRkpi8bcPgAMn6U"
+directories:
+  project_status:
+    label: "项目总览"
+    target_node: "CLJFwc9l8ik7IRkpi8bcPgAMn6U"
+  publishing_assets:
+    label: "对外发布"
+    target_node: "CLJFwc9l8ik7IRkpi8bcPgAMn6U"
+  application_assets:
+    label: "申请与介绍"
+    target_node: "CLJFwc9l8ik7IRkpi8bcPgAMn6U"

@@ -3,10 +3,11 @@
 ## Before media runs
 
 - confirm `media` has write permission to the target knowledge base
+- confirm `channels.feishu.accounts.media.tools.doc = true`
 - confirm the Feishu bot `小果` is the one bound to this execution path
-- fill
-  [targets.template.yaml](/Users/ztl/Documents/New project/marketing/feishu/knowledge-base/targets.template.yaml)
-- confirm each directory node points to the correct Feishu section
+- use
+  [targets.yaml](/Users/ztl/.openclaw/workspace-main/openclaw-oss-starter/marketing/feishu/knowledge-base/targets.yaml)
+- confirm each directory node points to the correct Feishu section or approved root node
 - keep all source pages public-safe
 - do not publish if any target field is still a placeholder
 

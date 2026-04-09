@@ -11,7 +11,7 @@ chat window.
 
 Default project context:
 
-- local repository path: `/Users/ztl/Documents/New project`
+- local repository path: `/Users/ztl/.openclaw/workspace-main/openclaw-oss-starter`
 - GitHub repository: `guoma970/openclaw-oss-starter`
 - if no other repo is named, `main` should use this one
 
@@ -47,7 +47,7 @@ Default project context:
 
 For the full checklist and sequence, see:
 
-- [MAIN_NEW_SKILL_FLOW.md](/Users/ztl/Documents/New project/marketing/feishu/knowledge-base/MAIN_NEW_SKILL_FLOW.md)
+- [MAIN_NEW_SKILL_FLOW.md](/Users/ztl/.openclaw/workspace-main/openclaw-oss-starter/marketing/feishu/knowledge-base/MAIN_NEW_SKILL_FLOW.md)
 
 ## Marketing update
 
@@ -64,7 +64,7 @@ For the full checklist and sequence, see:
 ```text
 请从 main 处理一次代码任务。
 要求：
-1. 默认在 /Users/ztl/Documents/New project 对应的 openclaw-oss-starter 仓库内完成代码或文档修改。
+1. 默认在 /Users/ztl/.openclaw/workspace-main/openclaw-oss-starter 对应的 openclaw-oss-starter 仓库内完成代码或文档修改。
 2. 如果修改影响 GitHub 展示、ClawHub 描述或飞书知识库，再派发给 media 做同步。
 3. 最后返回代码变更和公开同步结果。
 ```

@@ -15,7 +15,7 @@ Have one recurring check that:
 ## Command
 
 ```bash
-bash /Users/ztl/Documents/New\ project/marketing/feishu/knowledge-base/run_main_periodic_check.sh
+bash /Users/ztl/.openclaw/workspace-main/openclaw-oss-starter/marketing/feishu/knowledge-base/run_main_periodic_check.sh
 ```
 
 ## Suggested schedule

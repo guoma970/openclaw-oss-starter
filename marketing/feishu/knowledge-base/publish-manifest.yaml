@@ -2,7 +2,7 @@ version: 1
 executor: media
 channel: feishu
 target:
-  config_file: "marketing/feishu/knowledge-base/targets.template.yaml"
+  config_file: "marketing/feishu/knowledge-base/targets.yaml"
   wiki_space: "<read-from-config-file>"
   wiki_node: "<read-from-config-file>"
   routing_file: "marketing/feishu/knowledge-base/directory-rules.yaml"
@@ -25,8 +25,9 @@ pages:
     directory: "application_assets"
 rules:
   - "publish only after target wiki token is explicit"
-  - "read root and directory targets from targets.template.yaml"
+  - "read root and directory targets from targets.yaml"
   - "use media for knowledge-base execution"
   - "keep content public-safe"
   - "route each page by directory-rules.yaml before publishing"
+  - "current standard pages publish directly under the configured OpenClaw project root wiki node"
   - "return created or updated doc URLs"

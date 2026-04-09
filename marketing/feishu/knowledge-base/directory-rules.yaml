@@ -2,27 +2,27 @@ version: 1
 default_executor: media
 channel: feishu
 root_policy:
-  description: "Do not publish directly to the wiki root unless a rule explicitly allows it."
-  allow_root_publish: false
+  description: "Current OpenClaw knowledge-base pages live directly under the project root wiki node."
+  allow_root_publish: true
 directories:
   project_status:
     label: "项目总览"
     route_type: section
-    target_node: "<fill-parent-node-for-project-status>"
+    target_node: "CLJFwc9l8ik7IRkpi8bcPgAMn6U"
     applies_to:
       - "project_overview"
     rule: "Project positioning, public skill scope, release status, and repository overview pages go here."
   publishing_assets:
     label: "对外发布"
     route_type: section
-    target_node: "<fill-parent-node-for-publishing-assets>"
+    target_node: "CLJFwc9l8ik7IRkpi8bcPgAMn6U"
     applies_to:
       - "publishing_copy"
     rule: "Launch copy, channel-adapted announcements, and external publishing reference pages go here."
   application_assets:
     label: "申请与介绍"
     route_type: section
-    target_node: "<fill-parent-node-for-application-assets>"
+    target_node: "CLJFwc9l8ik7IRkpi8bcPgAMn6U"
     applies_to:
       - "application_materials"
     rule: "Application answers, project descriptions, and reusable intro materials go here."
