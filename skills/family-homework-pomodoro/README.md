@@ -4,6 +4,8 @@ A public-safe OpenClaw skill for parent-confirmed homework intake, Pomodoro exec
 
 Published on ClawHub as `family-homework-pomodoro@1.0.1`.
 
+Current repository draft update target: `1.0.2`.
+
 ## What it does
 
 This skill supports a simple family homework loop:
@@ -12,8 +14,9 @@ This skill supports a simple family homework loop:
 2. the assistant records the homework as provided
 3. the assistant confirms the homework start time with the parent
 4. the assistant reminds the child to begin homework using a Pomodoro rhythm
-5. the assistant checks completion status with the parent at night
-6. the assistant asks the parent whether a reward is allowed if the day went well
+5. the assistant allows simple parent-provided rhythm overrides when stated clearly
+6. the assistant checks completion status with the parent at night
+7. the assistant asks the parent whether a reward is allowed if the day went well
 
 ## Why it exists
 
@@ -22,6 +25,7 @@ It is a reusable template for:
 - family homework coordination
 - parent-approved homework reminders
 - simple Pomodoro-based execution
+- parent-approved rhythm overrides such as `20/5` or `30/5`
 - public-safe OpenClaw skill examples
 
 ## File structure
@@ -67,7 +71,7 @@ Keep this skill public-safe:
 - Parent: `Today the homework is math worksheet 3 and reading 2 pages.`
 - Assistant: `Recorded as provided. What time should homework begin today?`
 - Parent: `Start at 6:30 PM.`
-- Assistant: `Understood. I will remind the child at 6:30 PM and use a 25/5 Pomodoro rhythm by default.`
+- Assistant: `Understood. I will remind the child at 6:30 PM and use a 25/5 Pomodoro rhythm by default unless you want a different study or break pattern.`
 
 ### Child reminder example
 
@@ -79,6 +83,17 @@ Keep this skill public-safe:
 - Assistant to parent: `The homework appears to be completed well. Would you like to allow a reward today?`
 - Parent: `Yes, reward is allowed.`
 - Assistant to child: `Nice work. Your parent approved a reward for today.`
+
+### Larger homework example
+
+- Parent: `Math should go first, then reading. Start at 7:00 PM.`
+- Assistant: `Recorded. I will use one Pomodoro for math first, then a short break, then another Pomodoro for reading.`
+
+### Unfinished homework example
+
+- Assistant to parent: `One part appears unfinished. Should it continue later tonight or tomorrow?`
+- Parent: `Tomorrow is fine.`
+- Assistant: `Understood. I will keep today's work marked as unfinished and leave the continuation decision with you.`
 
 ## Support and customization
 
@@ -99,7 +114,7 @@ For a more detailed customization checklist, see
 
 For planned version notes, see [CHANGELOG.md](./CHANGELOG.md).
 
-For the next structured release note, see [releases/1.0.1.md](./releases/1.0.1.md).
+For the latest structured release notes, see [releases/1.0.1.md](./releases/1.0.1.md) and [releases/1.0.2.md](./releases/1.0.2.md).
 
 For a concise example pack, see [EXAMPLES.md](./EXAMPLES.md).
 

@@ -1,7 +1,7 @@
 ---
 name: family-homework-pomodoro
 description: Parent-confirmed homework intake, Pomodoro execution, nightly completion checks, and reward approval.
-version: 1.0.1
+version: 1.0.2
 ---
 
 # Family Homework Pomodoro / 家庭作业番茄执行助手
@@ -62,9 +62,13 @@ This skill does not cover:
 - extracurricular schedules
 - long-term household planning
 - complex private routines
+- complex multi-child parallel scheduling
 - sensitive school or health information
 - real family identities
 - private IDs, group names, or account data
+
+Use this skill when the goal is a simple same-day homework loop with parent confirmation.
+Do not use it as a full household planner or a private family operating system.
 
 ---
 
@@ -81,11 +85,20 @@ Before the child is told to start, confirm the intended start time with the pare
 If key homework information is missing, ask a short clarification question.  
 Do not invent deadlines, page numbers, signatures, or submission details.
 
-### 4. Use Pomodoro by default
+### 4. Use Pomodoro by default, but allow simple overrides
 Unless the parent says otherwise, use this rhythm:
 
 - 25 minutes of study
 - 5 minutes of break
+
+If the parent gives a different study or break rhythm, follow that override.
+You may also accept simple family-specific adjustments such as:
+
+- a shorter rhythm for younger children
+- a longer study block for reading-heavy work
+- a lighter break pattern for short homework loads
+
+Do not invent a custom rhythm on your own. Only apply an override when the parent states it clearly.
 
 ### 5. Reward stays parent-controlled
 The assistant may suggest that reward review is possible, but only the parent can approve a reward.
@@ -138,11 +151,24 @@ Default Pomodoro rhythm:
 - 25 minutes study
 - 5 minutes break
 
+Allowed simple override examples:
+
+- 20/5 for a younger child
+- 30/5 for reading or writing focus
+- one shorter final round for a small unfinished task
+
 If the homework is clearly large, you may divide it into natural sections, but:
 
 - preserve task integrity
 - do not over-fragment
 - do not turn one assignment into too many tiny parts
+- keep the breakdown understandable to both parent and child
+
+A reasonable example is:
+
+- first Pomodoro: math worksheet
+- short break
+- second Pomodoro: reading or writing task
 
 ---
 
@@ -158,6 +184,7 @@ If the homework is unfinished:
 
 - record that status
 - ask whether the unfinished part should continue later
+- ask whether it should continue tonight or tomorrow
 - do not make the decision yourself
 
 Do not declare homework complete unless the parent confirms it.
@@ -254,6 +281,24 @@ Missing information may include:
 - whether unfinished work should continue tomorrow
 
 ---
+
+## Quick fit check
+
+Good fit:
+
+- same-day homework assigned by a parent
+- one child starting homework after parent confirmation
+- simple Pomodoro-style study and break guidance
+- nightly completion check and reward review
+- one or two natural homework blocks in the same evening
+
+Not a good fit:
+
+- a full weekly study timetable
+- multi-child parallel planning with separate overlapping schedules
+- school administration or teacher communication
+- sensitive family case management
+- automatic reward systems without parent approval
 
 ## Boundaries
 
