@@ -1,0 +1,104 @@
+version: 1
+task_id: GH-20260417-02-R2
+task_type: feishu_knowledge_base_payload_land
+source_group: GitHub协同群
+source_actor: main
+repo:
+  local_path: /Users/ztl/.openclaw/workspace-main/openclaw-oss-starter
+  github_repo: guoma970/openclaw-oss-starter
+scope:
+  date: 2026-04-09
+  commit_range:
+    - 6b392e1
+    - 00c748c
+  include_paths:
+    - marketing/feishu/knowledge-base/12-command-library.md
+    - marketing/feishu/knowledge-base/17-blocker-and-exception-rules.md
+    - marketing/feishu/knowledge-base/37-main-takeover-readiness-checklist.md
+    - marketing/feishu/knowledge-base/38-official-group-activation-plan.md
+    - marketing/feishu/knowledge-base/46-official-group-default-context-rule.md
+    - marketing/feishu/knowledge-base/62-github-collab-group-daily-review-and-upload-rule.md
+kb_target:
+  executor: media
+  channel: feishu
+  wiki_space: "7617444927789616317"
+  parent_wiki_node: CLJFwc9l8ik7IRkpi8bcPgAMn6U
+permission_state:
+  wiki_list: available
+  doc_write: blocked
+  blocker: true
+  blocker_reason: media doc/write currently unavailable, recent write attempts returned 400
+items:
+  - key: command_library
+    source_file: marketing/feishu/knowledge-base/12-command-library.md
+    page_type: 现有页更新
+    feishu_page_name: 12_通用指令库
+    sync_covered_by_default_script: false
+    permission_blocker: true
+    routing:
+      mode: update
+      existing_node_token: Sytfw4XsSiE4xRkPmJCcxFxrnqg
+      existing_obj_token: PI6UdL9rUoKt5nxBFiHcGNscn5d
+  - key: blocker_and_exception_rules
+    source_file: marketing/feishu/knowledge-base/17-blocker-and-exception-rules.md
+    page_type: 需新建页
+    feishu_page_name: 17_异常与 Blocker 处理规则
+    sync_covered_by_default_script: false
+    permission_blocker: true
+    routing:
+      mode: create
+      parent_node_token: CLJFwc9l8ik7IRkpi8bcPgAMn6U
+  - key: main_takeover_readiness_checklist
+    source_file: marketing/feishu/knowledge-base/37-main-takeover-readiness-checklist.md
+    page_type: 需新建页
+    feishu_page_name: 37_Main 接管就绪清单
+    sync_covered_by_default_script: false
+    permission_blocker: true
+    routing:
+      mode: create
+      parent_node_token: CLJFwc9l8ik7IRkpi8bcPgAMn6U
+  - key: official_group_activation_plan
+    source_file: marketing/feishu/knowledge-base/38-official-group-activation-plan.md
+    page_type: 需新建页
+    feishu_page_name: 38_正式群启用方案
+    sync_covered_by_default_script: false
+    permission_blocker: true
+    routing:
+      mode: create
+      parent_node_token: CLJFwc9l8ik7IRkpi8bcPgAMn6U
+  - key: official_group_default_context_rule
+    source_file: marketing/feishu/knowledge-base/46-official-group-default-context-rule.md
+    page_type: 需新建页
+    feishu_page_name: 46_正式中枢群默认上下文规则
+    sync_covered_by_default_script: false
+    permission_blocker: true
+    routing:
+      mode: create
+      parent_node_token: CLJFwc9l8ik7IRkpi8bcPgAMn6U
+  - key: github_collab_group_daily_review_and_upload_rule
+    source_file: marketing/feishu/knowledge-base/62-github-collab-group-daily-review-and-upload-rule.md
+    page_type: 需新建页
+    feishu_page_name: 62_GitHub协同群日审与上传规则
+    sync_covered_by_default_script: false
+    permission_blocker: true
+    routing:
+      mode: create
+      parent_node_token: CLJFwc9l8ik7IRkpi8bcPgAMn6U
+non_page_exclusions:
+  - path: marketing/feishu/knowledge-base/README.md
+    reason: 知识库包索引说明，仅保留 GitHub
+  - path: marketing/feishu/knowledge-base/directory-rules.yaml
+    reason: 路由配置，仅保留 GitHub
+  - path: marketing/feishu/knowledge-base/publish-manifest.yaml
+    reason: 发布配置，仅保留 GitHub
+  - path: marketing/feishu/knowledge-base/targets.yaml
+    reason: 目标配置，仅保留 GitHub
+  - path: marketing/feishu/knowledge-base/run_media_sync.sh
+    reason: 执行脚本，仅保留 GitHub
+  - path: marketing/feishu/knowledge-base/run_xiaoguo_sync.sh
+    reason: 执行脚本，仅保留 GitHub
+notes:
+  - Do not treat README as a Feishu page.
+  - Do not auto-classify all MAIN_* or ops pages as existing standard pages.
+  - Only mark update when an existing Feishu mapping is confirmed.
+  - This payload is for file landing and downstream script wiring, not for live Feishu writes.
