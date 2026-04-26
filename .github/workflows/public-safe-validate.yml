@@ -1,0 +1,29 @@
+name: Public Safe Validate
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  public-safe-validate:
+    name: Run public-safe repository validation
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run validate_repo.sh
+        shell: bash
+        run: |
+          set -o pipefail
+          echo "== public-safe validation start =="
+          bash validate_repo.sh 2>&1 | tee public-safe-validate.log
+          status=${PIPESTATUS[0]}
+          if [[ $status -eq 0 ]]; then
+            echo "== public-safe validation PASS =="
+          else
+            echo "== public-safe validation FAIL =="
+          fi
+          exit "$status"
