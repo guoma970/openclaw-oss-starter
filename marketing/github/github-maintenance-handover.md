@@ -7,7 +7,7 @@
 ## 适用仓库
 
 - 仓库名：`guoma970/openclaw-oss-starter`
-- 本地路径：`/Users/ztl/Documents/New project`
+- 本地路径：`/Users/<your-user>/Documents/Projects/openclaw-oss-starter`
 - 默认分支：`main`
 
 ## 这条线程应负责什么
@@ -38,8 +38,8 @@
 
 参考：
 
-- [41-github-clawhub-update-rhythm.md](/Users/ztl/Documents/New%20project/marketing/feishu/knowledge-base/41-github-clawhub-update-rhythm.md)
-- [30-public-pipeline-sequence.md](/Users/ztl/Documents/New%20project/marketing/feishu/knowledge-base/30-public-pipeline-sequence.md)
+- [41-github-clawhub-update-rhythm.md](/Users/<your-user>/Documents/Projects/openclaw-oss-starter/marketing/feishu/knowledge-base/41-github-clawhub-update-rhythm.md)
+- [30-public-pipeline-sequence.md](/Users/<your-user>/Documents/Projects/openclaw-oss-starter/marketing/feishu/knowledge-base/30-public-pipeline-sequence.md)
 
 ## 标准公开顺序
 
@@ -53,12 +53,12 @@
 
 ## 本线程必须先看的规则
 
-- [22-public-safe-skill-rules.md](/Users/ztl/Documents/New%20project/marketing/feishu/knowledge-base/22-public-safe-skill-rules.md)
-- [23-prepublish-checklist.md](/Users/ztl/Documents/New%20project/marketing/feishu/knowledge-base/23-prepublish-checklist.md)
-- [26-skill-tiering-rules.md](/Users/ztl/Documents/New%20project/marketing/feishu/knowledge-base/26-skill-tiering-rules.md)
-- [27-publishing-decision-template.md](/Users/ztl/Documents/New%20project/marketing/feishu/knowledge-base/27-publishing-decision-template.md)
-- [33-minimum-public-sync-actions.md](/Users/ztl/Documents/New%20project/marketing/feishu/knowledge-base/33-minimum-public-sync-actions.md)
-- [43-feishu-knowledge-base-sync-trigger-rules.md](/Users/ztl/Documents/New%20project/marketing/feishu/knowledge-base/43-feishu-knowledge-base-sync-trigger-rules.md)
+- [22-public-safe-skill-rules.md](/Users/<your-user>/Documents/Projects/openclaw-oss-starter/marketing/feishu/knowledge-base/22-public-safe-skill-rules.md)
+- [23-prepublish-checklist.md](/Users/<your-user>/Documents/Projects/openclaw-oss-starter/marketing/feishu/knowledge-base/23-prepublish-checklist.md)
+- [26-skill-tiering-rules.md](/Users/<your-user>/Documents/Projects/openclaw-oss-starter/marketing/feishu/knowledge-base/26-skill-tiering-rules.md)
+- [27-publishing-decision-template.md](/Users/<your-user>/Documents/Projects/openclaw-oss-starter/marketing/feishu/knowledge-base/27-publishing-decision-template.md)
+- [33-minimum-public-sync-actions.md](/Users/<your-user>/Documents/Projects/openclaw-oss-starter/marketing/feishu/knowledge-base/33-minimum-public-sync-actions.md)
+- [43-feishu-knowledge-base-sync-trigger-rules.md](/Users/<your-user>/Documents/Projects/openclaw-oss-starter/marketing/feishu/knowledge-base/43-feishu-knowledge-base-sync-trigger-rules.md)
 
 ## 当前公开面状态
 
@@ -126,7 +126,7 @@ GitHub 维护线程不要把它们顺手混进提交。
 
 参考：
 
-- [assets/avatars/README.md](/Users/ztl/Documents/New%20project/assets/avatars/README.md)
+- [assets/avatars/README.md](/Users/<your-user>/Documents/Projects/openclaw-oss-starter/assets/avatars/README.md)
 
 ## 本线程的推荐工作方式
 
