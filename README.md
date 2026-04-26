@@ -78,6 +78,44 @@ can be published, installed, and adapted without exposing private runtime state.
 - `INSTALL.md`: a short install and usage guide
 - `skills/`: public-safe skill examples
 
+
+## Public-safe guardrails
+
+This repository includes reusable public-safe guardrails for public OpenClaw-style repositories:
+
+- `PUBLIC_SAFE_CHECKLIST.md` — manual review checklist and scan patterns
+- `validate_repo.sh` — local and CI validator
+- `.github/workflows/public-safe-validate.yml` — GitHub Actions enforcement
+- `docs/public-safe/architecture.md` — how detection, blocking, and PR comments work
+- `docs/public-safe/integration.md` — how to copy the guardrail into a new repository
+- `docs/public-safe/rules.md` — public-safe rule definitions
+
+Run locally before publishing:
+
+```bash
+bash validate_repo.sh
+```
+
+A passing run prints:
+
+```text
+Repository validation passed.
+```
+
+On pull requests, the workflow fails unsafe changes and posts a PR comment like:
+
+```text
+## Public-safe validation failed
+
+### Hit rules / risk lines
+examples/bad.tmp.md:4:- fake token: ghp_EXAMPLE_PLACEHOLDER
+examples/bad.tmp.md:5:- fake private path: /Users/example/private-test
+FAIL public-safe sensitive scan
+
+### How to fix
+Replace real tokens, private local paths, internal IDs, and live workspace identifiers with placeholder/mock/example values.
+```
+
 ## Public-safe Skill Collection
 
 This repository maintains a growing collection of public-safe OpenClaw skill
