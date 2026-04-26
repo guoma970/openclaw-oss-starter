@@ -12,24 +12,26 @@
 
 ## 当前知识库页面
 
+> Public-safe template only. Replace these placeholders in a private copy before use.
+
 - `01_项目总览`
-  https://www.feishu.cn/wiki/A0FFw31uCipszokenz3cSoUGnec
+  https://www.feishu.cn/wiki/<FEISHU_PAGE_NODE_TOKEN_01>
 - `02_对外发布文案`
-  https://www.feishu.cn/wiki/R6n4wHdnRizIDykCcQTclJranSb
+  https://www.feishu.cn/wiki/<FEISHU_PAGE_NODE_TOKEN_02>
 - `03_申请与介绍素材`
-  https://www.feishu.cn/wiki/TcHjwIFpKiTsrVkpKyAcHhB8nrb
+  https://www.feishu.cn/wiki/<FEISHU_PAGE_NODE_TOKEN_03>
 - `04_账号矩阵补充`
-  https://www.feishu.cn/wiki/ChOqwwTzviCdOFkefMJcckNCnQc
+  https://www.feishu.cn/wiki/<FEISHU_PAGE_NODE_TOKEN_04>
 - `05_发布执行规则`
-  https://www.feishu.cn/wiki/QkPbwGNGWiaMw6klqzRcyVLGnyc
+  https://www.feishu.cn/wiki/<FEISHU_PAGE_NODE_TOKEN_05>
 - `06_发布节奏与复盘`
-  https://www.feishu.cn/wiki/IoKawyaRSi72w1kbDNucRLxonMh
+  https://www.feishu.cn/wiki/<FEISHU_PAGE_NODE_TOKEN_06>
 - `07_项目里程碑`
-  https://www.feishu.cn/wiki/OK67wqhXbidsKvksBHDc5viqnLg
+  https://www.feishu.cn/wiki/<FEISHU_PAGE_NODE_TOKEN_07>
 - `08_发布记录与复盘模板`
-  https://www.feishu.cn/wiki/EsHjwafNWiC3WTkgPyfcisAunKe
+  https://www.feishu.cn/wiki/<FEISHU_PAGE_NODE_TOKEN_08>
 - `09_后续待办与选题方向`
-  https://www.feishu.cn/wiki/Tk62wM00niC1sikUIHPctqMdnje
+  https://www.feishu.cn/wiki/<FEISHU_PAGE_NODE_TOKEN_09>
 
 ## 使用建议
 
