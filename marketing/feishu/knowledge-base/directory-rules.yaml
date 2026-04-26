@@ -8,21 +8,21 @@ directories:
   project_status:
     label: "项目总览"
     route_type: section
-    target_node: "CLJFwc9l8ik7IRkpi8bcPgAMn6U"
+    target_node: "<FEISHU_PARENT_NODE_TOKEN>"
     applies_to:
       - "project_overview"
     rule: "Project positioning, public skill scope, release status, and repository overview pages go here."
   publishing_assets:
     label: "对外发布"
     route_type: section
-    target_node: "CLJFwc9l8ik7IRkpi8bcPgAMn6U"
+    target_node: "<FEISHU_PARENT_NODE_TOKEN>"
     applies_to:
       - "publishing_copy"
     rule: "Launch copy, channel-adapted announcements, and external publishing reference pages go here."
   application_assets:
     label: "申请与介绍"
     route_type: section
-    target_node: "CLJFwc9l8ik7IRkpi8bcPgAMn6U"
+    target_node: "<FEISHU_PARENT_NODE_TOKEN>"
     applies_to:
       - "application_materials"
     rule: "Application answers, project descriptions, and reusable intro materials go here."

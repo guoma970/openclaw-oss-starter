@@ -9,9 +9,11 @@ Thanks for helping improve `openclaw-oss-starter`.
 - boundary/routing improvements
 - public-safe examples
 
+Do not add project-specific internal execution logic, live execution automation, or customer-specific payloads to this public repository.
+
 ## Before you open a PR
 
-- do not include secrets, tokens, private memory files, or heartbeat state
+- do not include secrets, tokens, private memory files, heartbeat state, private paths, internal group IDs, or live workspace payloads
 - keep changes focused
 - update the README if the workflow changes
 

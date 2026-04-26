@@ -12,13 +12,13 @@ the Feishu directory.
 ## Command
 
 ```bash
-bash /Users/ztl/.openclaw/workspace-main/openclaw-oss-starter/marketing/feishu/knowledge-base/run_xiaoguo_sync.sh
+bash /Users/<your-user>/<private-path>
 ```
 
 ## Optional target override
 
 ```bash
-bash /Users/ztl/.openclaw/workspace-main/openclaw-oss-starter/marketing/feishu/knowledge-base/run_xiaoguo_sync.sh "https://www.feishu.cn/wiki/your-parent-url"
+bash /Users/<your-user>/<private-path> "https://www.feishu.cn/wiki/your-parent-url"
 ```
 
 ## Notes

@@ -34,13 +34,13 @@ Example chat instructions:
 ## Command
 
 ```bash
-bash /Users/ztl/.openclaw/workspace-main/openclaw-oss-starter/marketing/feishu/knowledge-base/run_main_dispatch.sh
+bash /Users/<your-user>/<private-path>
 ```
 
 ## Optional target override
 
 ```bash
-bash /Users/ztl/.openclaw/workspace-main/openclaw-oss-starter/marketing/feishu/knowledge-base/run_main_dispatch.sh "https://www.feishu.cn/wiki/your-parent-url"
+bash /Users/<your-user>/<private-path> "https://www.feishu.cn/wiki/your-parent-url"
 ```
 
 ## Recommendation

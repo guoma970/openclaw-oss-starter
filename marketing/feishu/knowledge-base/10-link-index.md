@@ -8,7 +8,7 @@
 ## 当前知识库目录
 
 - `11_OpenClaw开源项目` 父目录：
-  https://www.feishu.cn/wiki/CLJFwc9l8ik7IRkpi8bcPgAMn6U
+  https://www.feishu.cn/wiki/<FEISHU_PARENT_NODE_TOKEN>
 
 ## 当前知识库页面
 

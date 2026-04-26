@@ -8,7 +8,7 @@ All GitHub project work should enter through `main` first.
 
 Default assumption:
 
-- local repository path: `/Users/ztl/.openclaw/workspace-main/openclaw-oss-starter`
+- local repository path: `/Users/<your-user>/<private-path>`
 - GitHub repository: `guoma970/openclaw-oss-starter`
 
 If the user does not name another repository, `main` should use this project
@@ -61,4 +61,4 @@ dispatch that part to `media`.
 
 For the default repository context, see:
 
-- [MAIN_PROJECT_CONTEXT.md](/Users/ztl/.openclaw/workspace-main/openclaw-oss-starter/marketing/feishu/knowledge-base/MAIN_PROJECT_CONTEXT.md)
+- [MAIN_PROJECT_CONTEXT.md](/Users/<your-user>/<private-path>)

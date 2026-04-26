@@ -24,7 +24,7 @@
 
 - 默认项目：`openclaw-oss-starter`
 - 默认 GitHub 仓库：`guoma970/openclaw-oss-starter`
-- 默认工作区：`/Users/ztl/.openclaw/workspace-main/openclaw-oss-starter`
+- 默认工作区：`/Users/<your-user>/<private-path>`
 - 默认协作链：`main -> 小果 -> 果爸`
 
 因此在本群里，日常短口令不应再频繁要求补 repo 或路径。

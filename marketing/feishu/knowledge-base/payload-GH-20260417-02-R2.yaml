@@ -4,7 +4,7 @@ task_type: feishu_knowledge_base_payload_land
 source_group: GitHub协同群
 source_actor: main
 repo:
-  local_path: /Users/ztl/.openclaw/workspace-main/openclaw-oss-starter
+  local_path: /Users/<your-user>/<private-path>
   github_repo: guoma970/openclaw-oss-starter
 scope:
   date: 2026-04-09
@@ -21,8 +21,8 @@ scope:
 kb_target:
   executor: media
   channel: feishu
-  wiki_space: "7617444927789616317"
-  parent_wiki_node: CLJFwc9l8ik7IRkpi8bcPgAMn6U
+  wiki_space: "<FEISHU_WIKI_SPACE_ID>"
+  parent_wiki_node: <FEISHU_PARENT_NODE_TOKEN>
 permission_state:
   wiki_list: available
   doc_write: blocked
@@ -37,8 +37,8 @@ items:
     permission_blocker: true
     routing:
       mode: update
-      existing_node_token: Sytfw4XsSiE4xRkPmJCcxFxrnqg
-      existing_obj_token: PI6UdL9rUoKt5nxBFiHcGNscn5d
+      existing_node_token: <FEISHU_EXISTING_NODE_TOKEN>
+      existing_obj_token: <FEISHU_EXISTING_OBJ_TOKEN>
   - key: blocker_and_exception_rules
     source_file: marketing/feishu/knowledge-base/17-blocker-and-exception-rules.md
     page_type: 需新建页
@@ -47,7 +47,7 @@ items:
     permission_blocker: true
     routing:
       mode: create
-      parent_node_token: CLJFwc9l8ik7IRkpi8bcPgAMn6U
+      parent_node_token: <FEISHU_PARENT_NODE_TOKEN>
   - key: main_takeover_readiness_checklist
     source_file: marketing/feishu/knowledge-base/37-main-takeover-readiness-checklist.md
     page_type: 需新建页
@@ -56,7 +56,7 @@ items:
     permission_blocker: true
     routing:
       mode: create
-      parent_node_token: CLJFwc9l8ik7IRkpi8bcPgAMn6U
+      parent_node_token: <FEISHU_PARENT_NODE_TOKEN>
   - key: official_group_activation_plan
     source_file: marketing/feishu/knowledge-base/38-official-group-activation-plan.md
     page_type: 需新建页
@@ -65,7 +65,7 @@ items:
     permission_blocker: true
     routing:
       mode: create
-      parent_node_token: CLJFwc9l8ik7IRkpi8bcPgAMn6U
+      parent_node_token: <FEISHU_PARENT_NODE_TOKEN>
   - key: official_group_default_context_rule
     source_file: marketing/feishu/knowledge-base/46-official-group-default-context-rule.md
     page_type: 需新建页
@@ -74,7 +74,7 @@ items:
     permission_blocker: true
     routing:
       mode: create
-      parent_node_token: CLJFwc9l8ik7IRkpi8bcPgAMn6U
+      parent_node_token: <FEISHU_PARENT_NODE_TOKEN>
   - key: github_collab_group_daily_review_and_upload_rule
     source_file: marketing/feishu/knowledge-base/62-github-collab-group-daily-review-and-upload-rule.md
     page_type: 需新建页
@@ -83,7 +83,7 @@ items:
     permission_blocker: true
     routing:
       mode: create
-      parent_node_token: CLJFwc9l8ik7IRkpi8bcPgAMn6U
+      parent_node_token: <FEISHU_PARENT_NODE_TOKEN>
 non_page_exclusions:
   - path: marketing/feishu/knowledge-base/README.md
     reason: 知识库包索引说明，仅保留 GitHub

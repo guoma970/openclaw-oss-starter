@@ -4,22 +4,17 @@
 
 Public-safe OpenClaw skill templates for local AI coordination workflows.
 
-This repository focuses on structured task intake, confirmation logic,
-reminder orchestration, Mac multi-instance deployment, parent-approved
-execution flows, and public-safe Feishu coordination templates.
+This repository contains reusable skills, mock/demo workflow examples, and
+public-safe operating templates. It intentionally excludes private runtime
+state, real credentials, internal group IDs, customer data, and project-specific
+internal execution logic.
 
-> A public-safe OpenClaw skill collection across reusable skill publishing and
-> workflow operations.
+## Start here
 
-## Quick Links
-
-- [Skills](#included-skills)
-- [Install](./INSTALL.md)
-- [Examples](./examples/)
-- [Mac deployment](./skills/mac-multi-instance-deployment/README.md)
-- [Feishu knowledge base pack](./marketing/feishu/knowledge-base/README.md)
-- [Public-safe ops framework](./marketing/feishu/knowledge-base/36-public-safe-ops-message-templates.md)
-- [ClawHub release notes](./RELEASES.md)
+- Use [`INSTALL.md`](./INSTALL.md) for setup.
+- Browse [`skills/`](./skills/) for public-safe AgentSkills.
+- Use [`examples/`](./examples/) for copyable workflow patterns.
+- Treat [`marketing/feishu/knowledge-base/`](./marketing/feishu/knowledge-base/) as sanitized templates, not live workspace state.
 
 ## Project Pitch
 

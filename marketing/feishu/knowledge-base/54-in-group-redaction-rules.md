@@ -33,8 +33,8 @@
 
 ### 不建议这样写
 
-- `/Users/ztl/01-main`
-- `/Users/ztl/03-media`
+- `/Users/<your-user>/<private-path>`
+- `/Users/<your-user>/<private-path>`
 - `.openclaw/`
 - `00_总入口与说明/`
 - `07_家庭规则与提醒/`

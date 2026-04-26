@@ -10,12 +10,12 @@ to the Feishu parent directory.
 The script defaults to:
 
 - `11_OpenClaw开源项目`
-- https://www.feishu.cn/wiki/CLJFwc9l8ik7IRkpi8bcPgAMn6U
+- https://www.feishu.cn/wiki/<FEISHU_PARENT_NODE_TOKEN>
 
 ## Command
 
 ```bash
-bash /Users/ztl/.openclaw/workspace-main/openclaw-oss-starter/marketing/feishu/knowledge-base/run_media_sync.sh
+bash /Users/<your-user>/<private-path>
 ```
 
 ## Optional target override
@@ -23,7 +23,7 @@ bash /Users/ztl/.openclaw/workspace-main/openclaw-oss-starter/marketing/feishu/k
 If the parent directory changes, pass a different parent URL:
 
 ```bash
-bash /Users/ztl/.openclaw/workspace-main/openclaw-oss-starter/marketing/feishu/knowledge-base/run_media_sync.sh "https://www.feishu.cn/wiki/your-parent-url"
+bash /Users/<your-user>/<private-path> "https://www.feishu.cn/wiki/your-parent-url"
 ```
 
 ## Expected behavior

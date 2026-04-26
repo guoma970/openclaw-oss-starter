@@ -1,16 +1,17 @@
 version: 1
 executor: media
 channel: feishu
+# Public-safe template only. Replace placeholders in a private copy before use.
 root_target:
-  wiki_space: "7617444927789616317"
-  wiki_node: "CLJFwc9l8ik7IRkpi8bcPgAMn6U"
+  wiki_space: "<FEISHU_WIKI_SPACE_ID>"
+  wiki_node: "<FEISHU_PARENT_NODE_TOKEN>"
 directories:
   project_status:
-    label: "项目总览"
-    target_node: "CLJFwc9l8ik7IRkpi8bcPgAMn6U"
+    label: "Project overview"
+    target_node: "<FEISHU_PARENT_NODE_TOKEN>"
   publishing_assets:
-    label: "对外发布"
-    target_node: "CLJFwc9l8ik7IRkpi8bcPgAMn6U"
+    label: "Publishing assets"
+    target_node: "<FEISHU_PARENT_NODE_TOKEN>"
   application_assets:
-    label: "申请与介绍"
-    target_node: "CLJFwc9l8ik7IRkpi8bcPgAMn6U"
+    label: "Application materials"
+    target_node: "<FEISHU_PARENT_NODE_TOKEN>"

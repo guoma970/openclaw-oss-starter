@@ -5,7 +5,7 @@ through `main`.
 
 ## Default project
 
-- local repository path: `/Users/ztl/.openclaw/workspace-main/openclaw-oss-starter`
+- local repository path: `/Users/<your-user>/<private-path>`
 - GitHub repository: `guoma970/openclaw-oss-starter`
 - default branch: `main`
 
@@ -14,7 +14,7 @@ through `main`.
 - GitHub repository: `guoma970/openclaw-oss-starter`
 - ClawHub skills published from this repository
 - Feishu knowledge-base parent:
-  `https://www.feishu.cn/wiki/CLJFwc9l8ik7IRkpi8bcPgAMn6U`
+  `https://www.feishu.cn/wiki/<FEISHU_PARENT_NODE_TOKEN>`
 - default public-sync executor: `media`
 - Feishu bot name used for that executor: `小果`
 

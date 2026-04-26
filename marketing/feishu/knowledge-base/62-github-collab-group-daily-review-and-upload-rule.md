@@ -103,7 +103,7 @@
 在 `GitHub协同群` 中，若未明确指定其他仓库，则默认按：
 
 - 仓库：`guoma970/openclaw-oss-starter`
-- 本地路径：`/Users/ztl/Documents/New project`
+- 本地路径：`/Users/<your-user>/<private-path> project`
 - 分支：`main`
 
 若任务涉及代码或仓库文件：

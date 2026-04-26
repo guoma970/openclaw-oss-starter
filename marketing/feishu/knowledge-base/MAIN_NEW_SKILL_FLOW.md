@@ -15,7 +15,7 @@ Let `main` control the full lifecycle of a new skill:
 
 Default repository context:
 
-- local repository path: `/Users/ztl/.openclaw/workspace-main/openclaw-oss-starter`
+- local repository path: `/Users/<your-user>/<private-path>`
 - GitHub repository: `guoma970/openclaw-oss-starter`
 
 ## Standard flow

@@ -1,7 +1,7 @@
 #!/bin/zsh
 set -euo pipefail
 
-PARENT_URL="${1:-https://www.feishu.cn/wiki/CLJFwc9l8ik7IRkpi8bcPgAMn6U}"
+PARENT_URL="${1:-https://www.feishu.cn/wiki/<FEISHU_PARENT_NODE_TOKEN>}"
 
 MESSAGE=$(
   cat <<EOF

@@ -7,6 +7,8 @@
 - private memory files
 - heartbeat state
 - internal workspace-only instructions
+- private project names, internal repository names, or customer identifiers
+- real Feishu/GitHub workspace IDs, wiki/doc tokens, chat IDs, or open IDs
 
 ## Reporting issues
 

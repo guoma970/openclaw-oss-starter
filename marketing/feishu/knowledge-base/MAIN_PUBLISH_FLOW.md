@@ -23,11 +23,11 @@ cycle from one entry point.
 ## Command
 
 ```bash
-bash /Users/ztl/.openclaw/workspace-main/openclaw-oss-starter/marketing/feishu/knowledge-base/run_main_publish_flow.sh
+bash /Users/<your-user>/<private-path>
 ```
 
 ## Optional target override
 
 ```bash
-bash /Users/ztl/.openclaw/workspace-main/openclaw-oss-starter/marketing/feishu/knowledge-base/run_main_publish_flow.sh "https://www.feishu.cn/wiki/CLJFwc9l8ik7IRkpi8bcPgAMn6U"
+bash /Users/<your-user>/<private-path> "https://www.feishu.cn/wiki/<FEISHU_PARENT_NODE_TOKEN>"
 ```

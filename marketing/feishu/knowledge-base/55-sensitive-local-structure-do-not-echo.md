@@ -41,7 +41,7 @@
 
 不要回：
 
-- `Repository: /Users/ztl/01-main`
+- `Repository: /Users/<your-user>/<private-path>`
 - `?? 07_家庭规则与提醒/`
 
 改成：

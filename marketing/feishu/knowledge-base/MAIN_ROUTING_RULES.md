@@ -14,7 +14,7 @@ Codex work.
 
 Unless the user explicitly names another repository, `main` should assume:
 
-- local repository path: `/Users/ztl/.openclaw/workspace-main/openclaw-oss-starter`
+- local repository path: `/Users/<your-user>/<private-path>`
 - GitHub repository: `guoma970/openclaw-oss-starter`
 - default branch: `main`
 

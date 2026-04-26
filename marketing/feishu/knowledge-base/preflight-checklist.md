@@ -6,7 +6,7 @@
 - confirm `channels.feishu.accounts.media.tools.doc = true`
 - confirm the Feishu bot `小果` is the one bound to this execution path
 - use
-  [targets.yaml](/Users/ztl/.openclaw/workspace-main/openclaw-oss-starter/marketing/feishu/knowledge-base/targets.yaml)
+  [targets.yaml](/Users/<your-user>/<private-path>)
 - confirm each directory node points to the correct Feishu section or approved root node
 - keep all source pages public-safe
 - do not publish if any target field is still a placeholder

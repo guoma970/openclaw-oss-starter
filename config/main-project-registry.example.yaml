@@ -3,7 +3,7 @@ default_project: openclaw-oss-starter
 projects:
   - key: openclaw-oss-starter
     title: OpenClaw OSS Starter
-    local_path: /Users/ztl/Documents/New project
+    local_path: /Users/<your-user>/Documents/Projects/openclaw-oss-starter
     github_repo: guoma970/openclaw-oss-starter
     sensitivity: public
     public_sync:
@@ -12,7 +12,7 @@ projects:
       feishu_kb: true
 
   - key: yanding-cockpit
-    title: 言町驾驶舱
+    title: Example Internal Dashboard
     local_path: /Users/<your-user>/Documents/Projects/yanding-cockpit
     github_repo: ""
     sensitivity: internal
@@ -22,7 +22,7 @@ projects:
       feishu_kb: false
 
   - key: xiguo-companion
-    title: 羲果陪伴
+    title: Example Companion Project
     local_path: /Users/<your-user>/Documents/Projects/xiguo-companion
     github_repo: ""
     sensitivity: commercial_sensitive
