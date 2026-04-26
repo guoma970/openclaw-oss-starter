@@ -1,5 +1,7 @@
 # Security Policy
 
+This is a public-safe repository. Treat every file as publishable by default.
+
 ## What not to commit
 
 - API keys
